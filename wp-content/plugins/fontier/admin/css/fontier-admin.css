@@ -1,0 +1,173 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .action_hook.fes_render_field_font_repeater,
+ .action_hook.fes_render_field_fontier_repeater{
+     display:none !important;
+ }
+ .settings_page_fontier_options .csf-buttons .csf-save {
+    min-width: 120px;
+    background-color: #19003e;
+    background-image: linear-gradient(
+19deg
+, #1a003c 0%, #B721FF 100%);
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius:3px;
+}
+ .csf-field-fontierwelcometext h3{
+         font-size: 36px;
+    color: #1c004a;
+    line-height: 1.5;
+    margin: 0;
+ }
+ .about-description.wezido_mayosis_license{
+     background: #fff;
+    padding: 20px 30px 30px 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #000;
+    webkit-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    -moz-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    box-shadow: 0 5px 40px 0 rgb(10 10 25 / 10%);
+    max-width: 50%;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 19px;
+ }
+ .about-description.wezido_mayosis_license img{
+     width:100%;
+ }
+ .settings_page_fontier_options .notice,
+ .settings_page_fontier_options .csf-expand-all{
+     display:none;
+     opacity:0;
+ }
+.settings_page_fontier_options .csf-content {
+    position: relative;
+    background-color: #f0f0f1;
+}
+.settings_page_fontier_options .csf-header-inner {
+    padding: 70px 45px;
+    transition: box-shadow .3s ease;
+    border:none;
+}
+.settings_page_fontier_options  .csf-theme-light .csf-container{
+    border:none;
+}
+.settings_page_fontier_options .csf-theme-light .csf-nav-inline{
+    background:#fff;
+}
+.settings_page_fontier_options .csf-header-inner h1 {
+    float: left;
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+}
+.settings_page_fontier_options .csf-theme-light .csf-nav-inline>ul li .csf-active {
+    border-bottom-color: #1a0041;
+    background: #1a0041;
+    color: #fff;
+}
+ #elementor-panel-category-wezido-general .icon i{
+     background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#333));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+.settings_page_fontier_options .csf-theme-light .csf-nav-inline>ul li a {
+    text-align: center;
+    border-right: none;
+    border-bottom: none;
+    background: transparent;
+}
+.settings_page_fontier_options .csf-theme-light .csf-nav-inline{
+    border-bottom:none;
+}
+.settings_page_fontier_options .csf-options {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: -20px;
+}
+.settings_page_fontier_options .csf-theme-light .csf-header-inner {
+    background-color: #050505;
+    background-image:linear-gradient(172deg, #19003b 0%, #280082 100%);
+}
+.settings_page_fontier_options .csf-header-inner h1{
+    color:#fff;
+}
+.settings_page_fontier_options .csf-theme-light .csf-header-inner h1 small {
+    color: #e4dfdf !important;
+}
+.settings_page_fontier_options .csf-theme-light .csf-search input {
+    color: #fff;
+    background-color: #1d014e !important;
+    border-color: rgb(255 255 255 / 28%);
+    min-height: 40px;
+    border-radius: 3px;
+}
+.settings_page_fontier_options .csf-theme-light .csf-footer {
+    color: #555;
+    background-color: #e3e7fc !important;
+}
+#adminmenu .settings_page_fontier_options a.settings_page_fontier_options{
+    background: linear-gradient( 
+-135deg
+ , #140f3c 30%, rgb(20,20,100) 70%) !important;
+     animation: Gradient 15s ease infinite;
+    background-size: 400% 400%!important;
+    color: #fff!important;
+}
+ul#adminmenu .settings_page_fontier_options a.settings_page_fontier_options:after{
+        border-right-color: #141360 !important;
+}
+.csf-nav .csf-tab-icon{
+    font-size:20px !important;
+}
+.wezido-col-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wezido-col-4 .csf-field-switcher {
+    flex-basis: 25%;
+    display: flex;
+        border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+.wezido-col-4 .csf-field .csf-title {
+    width: 100%;
+}
+.wezido-col-4 .csf-field .csf-fieldset {
+    width: inherit;
+}
+.wezido-col-4.hidden{
+    display:none;
+}
+
+.wezido-col-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wezido-col-3 .csf-field-switcher {
+    flex-basis: 33.33333%;
+    display: flex;
+        border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+.wezido-col-3 .csf-field .csf-title {
+    width: 100%;
+}
+.wezido-col-3 .csf-field .csf-fieldset {
+    width: inherit;
+}
+.wezido-col-3.hidden{
+    display:none;
+}

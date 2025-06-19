@@ -1,0 +1,29 @@
+2025-06-09T09:42:35+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T09:45:10+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T11:31:58+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T14:10:06+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T14:10:21+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T14:10:35+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T14:15:25+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T14:25:31+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T15:13:58+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T17:37:16+00:00 INFO Payment gateway enabled: "Chapa"
+2025-06-09T21:24:01+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26272 did not have a valid thumbnail property.
+2025-06-09T21:24:01+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26271 did not have a valid thumbnail property.
+2025-06-09T21:24:01+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26270 did not have a valid thumbnail property.
+2025-06-09T21:24:01+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26269 did not have a valid thumbnail property.
+2025-06-09T21:24:01+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26268 did not have a valid thumbnail property.
+2025-06-09T21:28:56+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26272 did not have a valid thumbnail property.
+2025-06-09T21:28:56+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26271 did not have a valid thumbnail property.
+2025-06-09T21:28:56+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26270 did not have a valid thumbnail property.
+2025-06-09T21:28:56+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26269 did not have a valid thumbnail property.
+2025-06-09T21:28:56+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26268 did not have a valid thumbnail property.
+2025-06-09T21:35:31+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26272 did not have a valid thumbnail property.
+2025-06-09T21:35:31+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26271 did not have a valid thumbnail property.
+2025-06-09T21:35:31+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26270 did not have a valid thumbnail property.
+2025-06-09T21:35:31+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26269 did not have a valid thumbnail property.
+2025-06-09T21:35:31+00:00 WARNING After passing through woocommerce_cart_item_images filter, image with id 26268 did not have a valid thumbnail property.
+2025-06-09T23:01:23+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T23:01:35+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T23:02:37+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-06-09T23:04:12+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.

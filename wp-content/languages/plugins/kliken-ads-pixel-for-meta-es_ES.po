@@ -1,0 +1,179 @@
+# Translation of Plugins - Kliken: Ads + Pixel for Meta - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Kliken: Ads + Pixel for Meta - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-30 17:32:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Kliken: Ads + Pixel for Meta - Stable (latest release)\n"
+
+#. translators: %s: Plugin name. Do not translate.
+#: classes/class-plugin.php:114
+msgid "%s plugin can only be called once."
+msgstr "El plugin %s solo pude ser llamado una vez."
+
+#. translators: %1$s: Plugin name. %2$s: Version number of WooCommerce required
+#. to run plugin. Do not translate.
+#: classes/class-plugin.php:260
+msgid "%1$s requires WooCommerce version %2$s or greater."
+msgstr "%1$s necesita la versión de WooCommerce %2$s o superior."
+
+#. translators: %s: Plugin name. Do not translate.
+#: classes/class-plugin.php:249
+msgid "%s requires WooCommerce to be activated."
+msgstr "%s necesita que WooCommerce esté activado."
+
+#. translators: %s: Plugin name. %s: A hyperlink. Do not translate.
+#: classes/class-plugin.php:485
+msgid "<strong>%1$s plugin is almost ready.</strong> <a href=\"%2$s\">Click here</a> to get started."
+msgstr "<strong>%1$s el plugin está casi listo.</strong> <a href=\"%2$s\">Haz clic aquí</a> para empezar."
+
+#: pages/dashboard.php:228
+msgid "Account Id"
+msgstr "ID de la cuenta"
+
+#: pages/dashboard.php:211
+msgid "Advanced Settings"
+msgstr "Ajustes avanzados"
+
+#. translators: %1$s: Plugin name. %2$s: Plugin name. Do not translate.
+#: classes/class-plugin.php:285
+msgid "An older version of \"%1$s\" plugin is active. For \"%2$s\" to work, please deactivate it, or update to latest version."
+msgstr "Está activa una versión anterior del plugin «%1$s». Para que «%2$s» funcione, desactívalo o actualízalo a la última versión."
+
+#: pages/dashboard.php:234
+msgid "Application Token"
+msgstr "Token de la aplicación"
+
+#: pages/dashboard.php:252
+msgid "Edit Settings"
+msgstr "Editar ajustes"
+
+#. translators: "Facebook Advantage+" is product name. Do not translate.
+#: pages/getstarted.php:47
+msgid "Effortless Facebook Advantage+ campaign creation"
+msgstr "Creación de campañas Facebook Advantage+ sin esfuerzo"
+
+#. translators: Facebook is product name. Do not translate.
+#: pages/dashboard.php:243
+msgid "Facebook Verification Token"
+msgstr "Token de verificación de Facebook"
+
+#: pages/dashboard.php:275
+msgid "Authorize API Access"
+msgstr "Autorizar acceso API"
+
+#: pages/dashboard.php:133
+msgid "Create new ad"
+msgstr "Crear nuevo anuncio"
+
+#: pages/getstarted.php:16
+msgid "Grow your business"
+msgstr "Haz crecer tu empresa"
+
+#: classes/class-rest-misc-controller.php:95
+#: classes/class-rest-misc-controller.php:115
+#: classes/class-rest-misc-controller.php:139
+#: classes/class-rest-misc-controller.php:192
+#: classes/class-rest-misc-controller.php:198
+msgid "Invalid Data."
+msgstr "Datos no válidos."
+
+#. Author of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "Kliken"
+msgstr "Kliken"
+
+#. Description of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "Kliken's all-in-one marketing platform helps business owners reach high-intent customers, surpass your competition and realize significant growth in sales, while decreasing conversion costs."
+msgstr "La plataforma de marketing todo en uno de Kliken ayuda a los propietarios de empresas a llegar a los clientes más exigentes, superar a la competencia y conseguir un crecimiento significativo de ventas, al mismo tiempo que se reducen los costes de conversión."
+
+#: pages/dashboard.php:257
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#. translators: Woo, or WooCommerce is product name. Do not translate.
+#: pages/getstarted.php:61
+msgid "Seamless integration with your Woo store"
+msgstr "Integración perfecta con tu tienda Woo"
+
+#: pages/dashboard.php:181 pages/dashboard.php:216
+msgid "Settings"
+msgstr "Ajustes"
+
+#: pages/getstarted.php:73
+msgid "Track ad performance, revenue, and sales with ease"
+msgstr "Haz un seguimiento del rendimiento de los anuncios, los ingresos y las ventas con facilidad"
+
+#. Author URI of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "https://kliken.com/"
+msgstr "https://kliken.com/"
+
+#. Plugin URI of the plugin
+#: kliken-ads-pixel-for-meta.php
+msgid "https://woo.kliken.com/"
+msgstr "https://woo.kliken.com/"
+
+#. translators: "Facebook Ads" is product name. Do not translate.
+#: pages/getstarted.php:20
+msgid "with Facebook Ads"
+msgstr "con Facebook Ads"
+
+#: classes/class-plugin.php:181
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: pages/getstarted.php:123
+msgid "Get Started"
+msgstr "Primeros pasos"
+
+#: pages/dashboard.php:199
+msgid "Manage account"
+msgstr "Gestionar cuenta"
+
+#: pages/dashboard.php:165
+msgid "Manage ads"
+msgstr "Gestionar anuncios"
+
+#: classes/class-rest-misc-controller.php:177
+msgid "Sorry, you cannot list resources."
+msgstr "Lo siento, no puedes listar recursos."
+
+#: classes/class-plugin.php:184
+msgid "Support"
+msgstr "Soporte"
+
+#: classes/class-plugin.php:207
+msgid "This will dismiss the message permanently. Are you sure?"
+msgstr "Esto descartará el mensaje de manera definitiva. ¿Quieres continuar?"
+
+#: pages/dashboard.php:202
+msgid "Update your account settings, billing information, and preferences to keep everything running smoothly."
+msgstr "Actualiza los ajustes de tu cuenta, la información de facturación y tus preferencias para que todo funcione de correctamente."
+
+#: pages/dashboard.php:219
+msgid "What are these options?"
+msgstr "¿Cuáles son esas opciones?"
+
+#. translators: %1$s: Plugin name. %2$s, %3$s: Hyperlinks. Meta, Pixel are
+#. brand names/products. Do not translate.
+#: classes/class-tracker.php:147
+msgid "You currently have %1$s installed which is using a different Meta Pixel. This may result in under reporting of conversions. Please consider updating the account settings to use the same Pixel in each app, or <a href=\"%2$s\">click here</a> to disable the %1$s app. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more</a>."
+msgstr "Actualmente, tienes instalado %1$s, que utiliza un Meta Pixel diferente. Esto puede provocar que no se registren las conversiones. Considera la posibilidad de actualizar los ajustes de la cuenta para utilizar el mismo píxel en cada aplicación o <a href=\"%2$s\">haz clic aquí</a> para desactivar la aplicación %1$s. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Más información</a>."
+
+#. Plugin Name of the plugin
+#. translators: Meta and Woo are brand names. Meta Pixel and Meta Ads are
+#. product names. Do not translate.
+#: kliken-ads-pixel-for-meta.php classes/class-helper.php:137
+#: classes/class-plugin.php:116 classes/class-plugin.php:250
+#: classes/class-plugin.php:261 classes/class-plugin.php:287
+#: classes/class-plugin.php:379 classes/class-plugin.php:380
+#: classes/class-plugin.php:491
+msgid "Kliken: Ads + Pixel for Meta"
+msgstr "Kliken: Ads + Pixel for Meta"

@@ -1,0 +1,394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sg Order Approval for Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-10 05:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1\n"
+"X-Domain: order-approval-woocommerce"
+
+#: order-approval-woocommerce.php:54
+msgid "</b> plugin to work. Please ensure that they are activated: "
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:16
+msgid "Admin Pre order notification "
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:27
+msgid "Allow store owner to approve  woocommerce order  before payment."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:17
+msgid "An email sent to the admin when an order is created."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-approved.php:17
+msgid "An email sent to the customer when an order is approved."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order.php:17
+msgid ""
+"An email sent to the customer when an order is created through pre-order."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-rejected.php:17
+msgid "An email sent to the customer when an order is rejected."
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:137
+#: admin/class-sg-order-approval-woocommerce-admin.php:415
+msgid "Approve"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:417
+msgid "Approved"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:45
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order.php:16
+msgid "Customer Pre order notification"
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:27
+#, php-format
+msgctxt "default email subject for new emails sent to admin"
+msgid "[%s] : New Order #[%s]"
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-approved.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order  Approved. "
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-rejected.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order is rejected"
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order is waiting for approval"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:70
+msgid "Description"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:41
+msgid "Do not send my e-mail address with this feedback"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:322
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:57
+msgid "Enable Woocommerce Order Approval Payment"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:55
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:328
+msgid "Free Support"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:352
+#, php-format
+msgid ""
+"Free version order approval plugin enabled for all orders.<p> Enable order "
+"approval at <a href=\"%s\" target=\"_blank\">payments</a> & customise  <a "
+"href=\"%s\" target=\"_blank\">emails</a>.</p> If you want to enable order "
+"approval for specific product please purchase  <a href=\"%s\" "
+"target=\"_blank\">premium version</a>."
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:340
+msgid "Get Premium"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:315
+msgid "Helpfull Links"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:317
+msgid "Helpfull Links for settings page"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:366
+msgid "How to handle stock using order approval"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:156
+msgid "HTML"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sevengits.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/order-approval-woocommerce/"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:59
+msgid "I don't need this plugin any more"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:60
+msgid "I found a better plugin"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:38
+msgid "If you would be kind enough, please tell us why you're deactivating?"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:78
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:80
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:61
+msgid "It's a temporary deactivation, I'm troubleshooting"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:364
+msgid "Let woocommerce or other plugin handle it"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:357
+msgid "Manage inventory"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:157
+msgid "Multipart"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:25
+msgid "New Order "
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-approved.php:12
+msgid "New order #%d has been approved. The order details:"
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-new.php:12
+msgid "New order #%d has been received for admin approval. The order details:"
+msgstr ""
+
+#: templates/emails/plain/wc-admin-order-new.php:12
+msgid "New order #%d has been received. The order details:"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-approved.php:16
+msgid "Order approved notification"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-rejected.php:16
+msgid "Order rejected notification"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:105
+#: admin/class-sg-order-approval-woocommerce-admin.php:122
+msgctxt "Order status"
+msgid "Waiting for approval"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:62
+msgid "Other"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:24
+msgid "Pay for order"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:26
+msgid "Pay now"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:72
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-admin-order.php:155
+msgid "Plain text"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:43
+msgid "Please give us any feedback that could help us improve"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:25
+msgid "Please pay the order by clicking here "
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-approved.php:14
+#, php-format
+msgid "Please pay the order by clicking here %s "
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:73
+msgid "Please remit payment after order approval."
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:40
+msgid "Please tell us the reason so we can improve the plugin"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:39
+msgid "Please tell us which plugin?"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:48
+msgid "Please wait"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:65
+msgid "Pre Order"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:37
+msgid "Quick Feedback"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:363
+msgid "Reduce stock upon order approval"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:362
+msgid "Reduce stock upon order approval request"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:143
+#: admin/class-sg-order-approval-woocommerce-admin.php:425
+msgid "Reject"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:423
+msgid "Rejected"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:334
+msgid "Request Customization"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sevengits"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:403
+msgid "SG Order Approval"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-sg-order-approval-woocommerce-admin.php:350
+msgid "Sg Order Approval for Woocommerce"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:46
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:47
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order.php:20
+msgid "Thank you for your order"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:49
+msgid "Thank you!"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:58
+msgid "The plugin broke my site"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:57
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:64
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:62
+msgid "Title"
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:119
+msgid "waiting admin approval"
+msgstr ""
+
+#: admin/class-sg-order-approval-woocommerce-admin.php:110
+#, php-format
+msgid "Waiting approval <span class=\"count\">(%s)</span>"
+msgid_plural "Waiting<span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sg-order-approval-woocommerce-payment-gateway.php:26
+msgid "Woocommerce Order Approval"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Order Approval plugin allowing shop owners to approve or reject "
+"all the orders placed by customers before payment processed."
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:15
+msgid "Your order #%d has been approved."
+msgstr ""
+
+#: templates/emails/wc-customer-order-rejected.php:15
+msgid "Your order #%d has been rejected."
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-rejected.php:12
+msgid "Your order #%d has been rejected. The order details:"
+msgstr ""
+
+#: templates/emails/wc-customer-order-new.php:15
+msgid "Your order #%d has been waiting for approval."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-approved.php:20
+msgid "Your order is approved."
+msgstr ""
+
+#: includes/class-sg-order-approval-woocommerce-wc-customer-order-rejected.php:20
+msgid "Your order is rejected"
+msgstr ""
+
+#: templates/emails/wc-admin-order-new.php:15
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr ""

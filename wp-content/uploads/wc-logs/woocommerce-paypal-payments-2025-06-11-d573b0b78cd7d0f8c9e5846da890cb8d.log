@@ -1,0 +1,18 @@
+2025-06-11T16:58:27+00:00 DEBUG #3197 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2025-06-11T16:58:27+00:00 DEBUG #3197 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2025-06-11T22:21:30+00:00 DEBUG #7990 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2025-06-11T22:21:30+00:00 DEBUG #7990 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}

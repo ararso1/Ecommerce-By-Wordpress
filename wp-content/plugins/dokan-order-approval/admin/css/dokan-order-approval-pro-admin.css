@@ -1,0 +1,35 @@
+.button.danger {
+    color: red;
+    border-color: red;
+}
+
+.button.danger:hover {
+    color: red;
+    border-color: red;
+}
+
+.button.success {
+    color: green;
+    border-color: green;
+}
+
+.button.success:hover {
+    color: green;
+    border-color: green;
+}
+
+.approved:before {
+    content: "\f12a";
+    font: normal 15px/1 'dashicons';
+    vertical-align: middle;
+}
+
+.reject:before {
+    content: "\f153";
+    font: normal 15px/1 'dashicons';
+    vertical-align: middle;
+}
+
+.oa_btn_visibility {
+    display: none !important
+}

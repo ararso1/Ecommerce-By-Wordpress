@@ -1,0 +1,423 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dokan Order Approval\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 05:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.7.2\n"
+"X-Domain: dokan-order-approval"
+
+#: includes/class-plugin-review-request.php:245
+msgid "1 month"
+msgstr ""
+
+#: includes/class-plugin-review-request.php:237
+msgid "1 week"
+msgstr ""
+
+#: includes/class-plugin-review-request.php:253
+msgid "3 months"
+msgstr ""
+
+#. %s: Order ID.
+#: templates/emails/vendor-new-preorder.php:36
+#, php-format
+msgid "[Order #%s]"
+msgstr ""
+
+#: includes/class-dokan-order-approval-vendor-order.php:54
+msgid "[{site_title}] New customer order ({order_number}) - {order_date}"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:16
+msgid "Admin Pre Order Notification "
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:34
+msgid "Allow store owner to approve  woocommerce order  before payment."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:17
+msgid "An email sent to the admin when an order is created."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-approved.php:17
+msgid "An email sent to the customer when an order is approved."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order.php:17
+msgid ""
+"An email sent to the customer when an order is created through pre-order."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-rejected.php:17
+msgid "An email sent to the customer when an order is rejected."
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:133
+#: public/class-sg-dokan-order-approval-public.php:117
+msgid "Approve"
+msgstr ""
+
+#. %s: list of placeholders
+#: includes/class-dokan-order-approval-vendor-order.php:165
+#: includes/class-dokan-order-approval-vendor-order.php:174
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:147
+#: includes/class-dokan-order-approval-vendor-order.php:181
+msgid "Choose which format of email to send."
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:27
+#, php-format
+msgctxt "default email subject for new emails sent to admin"
+msgid "[%s] : New Order #[%s]"
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-dokan-order-approval-wc-customer-order-approved.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order  Approved. "
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-dokan-order-approval-wc-customer-order-rejected.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order is rejected"
+msgstr ""
+
+#. placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: includes/class-sg-dokan-order-approval-wc-customer-order.php:22
+#, php-format
+msgctxt "default email subject for new emails sent to the customer"
+msgid "[%s] Order is waiting for approval"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:77
+msgid "Description"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-sg-dokan-order-approval-admin.php:253
+msgid "Dokan Order Approval"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Dokan Order Approval plugin allowing vendors to approve or reject all the "
+"orders placed by customers before payment processed."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:138
+msgid "Email Heading"
+msgstr ""
+
+#: includes/class-dokan-order-approval-vendor-order.php:170
+msgid "Email heading"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:145
+#: includes/class-dokan-order-approval-vendor-order.php:179
+msgid "Email type"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:121
+#: includes/class-dokan-order-approval-vendor-order.php:157
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:64
+msgid "Enable Woocommerce Order Approval Payment"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:119
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:62
+#: includes/class-dokan-order-approval-vendor-order.php:155
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:127
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s"
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:255
+#, php-format
+msgid ""
+"Free version dokan order approval plugin enabled for all orders.<p> Enable "
+"order approval at <a href=\"%s\" target=\"_blank\">payments</a> & customise  "
+"<a href=\"%s\" target=\"_blank\">emails</a>.</p> If you want to enable order "
+"approval for specific product please purchase  <a href=\"%s\" "
+"target=\"_blank\">premium version</a>."
+msgstr ""
+
+#: includes/class-plugin-review-request.php:230
+#, php-format
+msgid ""
+"Hey,</br> We noticed you recently hit %d orders using dokan order approval "
+"plugin – that’s awesome!. We would very much appreciate if you could quickly "
+"give it a 5-star rating on WordPress, just to help us spread the word."
+msgstr ""
+
+#: includes/class-plugin-review-request.php:231
+#, php-format
+msgid ""
+"Hey,</br> you've been using Dokan Order Approval for %s on your site - We "
+"hope that its been helpful. We would very much appreciate if you could "
+"quickly give it a 5-star rating on WordPress, just to help us spread the "
+"word."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:152
+msgid "HTML"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sevengits.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://sevengits.com/plugins/"
+msgstr ""
+
+#: includes/class-plugin-review-request.php:434
+msgid "I already did"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:85
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:87
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:153
+msgid "Multipart"
+msgstr ""
+
+#: includes/class-dokan-order-approval-vendor-order.php:64
+msgid "New Customer Order: #{order_number}"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:25
+msgid "New Order "
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-approved.php:25
+#, php-format
+msgid "New order #%d has been approved. The order details:"
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-new.php:25
+#, php-format
+msgid "New order #%d has been received for admin approval. The order details:"
+msgstr ""
+
+#: templates/emails/plain/wc-admin-order-new.php:25
+#, php-format
+msgid "New order #%d has been received. The order details:"
+msgstr ""
+
+#: includes/class-dokan-order-approval-vendor-order.php:20
+msgid ""
+"New order emails are sent to chosen recipient(s) when a new order is "
+"received."
+msgstr ""
+
+#: includes/class-plugin-review-request.php:429
+msgid "Nope, maybe later"
+msgstr ""
+
+#: templates/emails/vendor-new-preorder.php:82
+msgid "Note:"
+msgstr ""
+
+#: includes/class-plugin-review-request.php:424
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-approved.php:16
+msgid "Order Approved Notification"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-rejected.php:16
+msgid "Order Rejected Notification"
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:101
+#: admin/class-sg-dokan-order-approval-admin.php:118
+msgctxt "Order status"
+msgid "Waiting for approval"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:24
+msgid "Pay for order"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:26
+msgid "Pay now"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:79
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:151
+msgid "Plain text"
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:25
+msgid "Please pay the order by clicking here "
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:80
+msgid "Please remit payment after order approval."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:72
+msgid "Pre Order"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order.php:16
+msgid "Pre Order Notification"
+msgstr ""
+
+#: templates/emails/vendor-new-preorder.php:46
+msgid "Price"
+msgstr ""
+
+#: templates/emails/vendor-new-preorder.php:44
+msgid "Product"
+msgstr ""
+
+#: templates/emails/vendor-new-preorder.php:45
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:125
+msgid "Recipient"
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:139
+#: public/class-sg-dokan-order-approval-public.php:123
+msgid "Reject"
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:180
+msgid "Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sevengits"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:131
+#: includes/class-dokan-order-approval-vendor-order.php:161
+msgid "Subject"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order.php:20
+msgid "Thank you for your order"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:133
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-admin-order.php:140
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:71
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:69
+msgid "Title"
+msgstr ""
+
+#: includes/class-dokan-order-approval-vendor-order.php:19
+msgid "Vendor Pre Order Notification"
+msgstr ""
+
+#: public/class-sg-dokan-order-approval-public.php:151
+msgid "Waiting"
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:126
+msgid "waiting admin approval"
+msgstr ""
+
+#: admin/class-sg-dokan-order-approval-admin.php:106
+#, php-format
+msgid "Waiting approval <span class=\"count\">(%s)</span>"
+msgid_plural "Waiting<span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sg-dokan-order-approval-payment-gateway.php:33
+msgid "Woocommerce Order Approval"
+msgstr ""
+
+#: templates/emails/vendor-new-preorder.php:29
+#: templates/emails/plain/vendor-new-preorder.php:15
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: templates/emails/wc-customer-order-approved.php:15
+#, php-format
+msgid "Your order #%d has been approved."
+msgstr ""
+
+#: templates/emails/wc-customer-order-rejected.php:15
+#, php-format
+msgid "Your order #%d has been rejected."
+msgstr ""
+
+#: templates/emails/plain/wc-customer-order-rejected.php:25
+#, php-format
+msgid "Your order #%d has been rejected. The order details:"
+msgstr ""
+
+#: templates/emails/wc-customer-order-new.php:15
+#, php-format
+msgid "Your order #%d has been waiting approval."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-approved.php:20
+msgid "Your order is approved."
+msgstr ""
+
+#: includes/class-sg-dokan-order-approval-wc-customer-order-rejected.php:20
+msgid "Your order is rejected"
+msgstr ""
+
+#: templates/emails/wc-admin-order-new.php:15
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr ""

@@ -1,0 +1,1019 @@
+# Copyright (C) 2023 ThimPress
+# This file is distributed under the same license as the Woo Booster Toolkit plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Booster Toolkit 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-booster-toolkit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-22T11:31:35+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: wcbt\n"
+
+#. Plugin Name of the plugin
+#: app/Elementor/ElementorWCBT.php:52
+#: config/wcbt-setting.php:34
+msgid "Woo Booster Toolkit"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add some features to WooCommerce plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://thimpress.com/"
+msgstr ""
+
+#: app/Controllers/PageController.php:50
+msgid "Could not create a page."
+msgstr ""
+
+#: app/Controllers/PageController.php:54
+msgid "Create a page successfully."
+msgstr ""
+
+#: app/Controllers/VariationController.php:135
+#: app/Controllers/VariationController.php:158
+msgid "Variation Type"
+msgstr ""
+
+#: app/Controllers/VariationController.php:137
+#: app/Controllers/VariationController.php:163
+#: config/wcbt-setting.php:142
+#: config/wcbt-setting.php:255
+#: config/wcbt-setting.php:340
+msgid "Square"
+msgstr ""
+
+#: app/Controllers/VariationController.php:138
+#: app/Controllers/VariationController.php:166
+#: config/wcbt-setting.php:143
+#: config/wcbt-setting.php:256
+#: config/wcbt-setting.php:341
+msgid "Circle"
+msgstr ""
+
+#: app/Controllers/VariationController.php:179
+#: app/Elementor/Widgets/FilterProduct.php:1680
+msgid "Select"
+msgstr ""
+
+#: app/Controllers/VariationController.php:212
+msgid "Select terms"
+msgstr ""
+
+#: app/Controllers/VariationController.php:245
+msgid "Select all"
+msgstr ""
+
+#: app/Controllers/VariationController.php:246
+msgid "Select none"
+msgstr ""
+
+#: app/Controllers/VariationController.php:247
+msgid "Add new"
+msgstr ""
+
+#: app/Controllers/WishListController.php:178
+#: views/frontend/classic/compare-product/compare-list.php:16
+msgid "No product found."
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:64
+msgid "Filter Area"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:72
+msgid "Select Type"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:77
+#: config/wcbt-setting.php:729
+#: views/frontend/classic/product-filter/availability.php:13
+msgid "Availability"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:78
+#: views/frontend/classic/product-filter/category.php:31
+msgid "Categories"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:79
+msgid "Attributes"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:80
+#: config/wcbt-setting.php:737
+#: views/frontend/classic/compare-product/compare-list.php:85
+#: views/frontend/classic/product-filter/price.php:21
+#: views/frontend/classic/shared/product-list/table-product-item/header.php:6
+msgid "Price"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:82
+#: config/wcbt-setting.php:741
+#: views/frontend/classic/product-filter/rating.php:19
+msgid "Rating"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:90
+msgid "Select Attribute"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:102
+msgid "Item Number"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:116
+#: app/Elementor/Widgets/FilterProduct.php:336
+msgid "Show Count"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:118
+#: app/Elementor/Widgets/FilterProduct.php:193
+#: app/Elementor/Widgets/FilterProduct.php:207
+#: app/Elementor/Widgets/FilterProduct.php:275
+#: app/Elementor/Widgets/FilterProduct.php:297
+#: app/Elementor/Widgets/FilterProduct.php:338
+#: app/Elementor/Widgets/FilterProduct.php:353
+msgid "Show"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:119
+#: app/Elementor/Widgets/FilterProduct.php:194
+#: app/Elementor/Widgets/FilterProduct.php:298
+#: app/Elementor/Widgets/FilterProduct.php:339
+#: app/Elementor/Widgets/FilterProduct.php:354
+msgid "Hide"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:131
+msgid "Price setting"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:132
+#: app/Elementor/Widgets/FilterProduct.php:181
+#: app/Elementor/Widgets/FilterProduct.php:261
+msgid "Default"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:133
+#: app/Elementor/Widgets/FilterProduct.php:182
+#: app/Elementor/Widgets/FilterProduct.php:262
+msgid "Custom"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:145
+#: config/wcbt-setting.php:775
+msgid "Max Price"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:156
+#: config/wcbt-setting.php:767
+msgid "Min Price"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:167
+#: config/wcbt-setting.php:783
+msgid "Step Price"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:180
+msgid "Heading setting"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:191
+msgid "Show Title"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:202
+#: app/Elementor/Widgets/FilterProduct.php:270
+msgid "Show Toggle"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:206
+#: app/Elementor/Widgets/FilterProduct.php:274
+msgid "None"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:208
+msgid "Always Show"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:209
+msgid "Dropdown"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:220
+msgid "Width Content(%)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:234
+msgid "Repeater Field filter"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:253
+msgid "Extral Option "
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:260
+msgid "Filter Toggle Button"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:276
+msgid "Show Only Mobile"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:283
+#: app/Elementor/Widgets/FilterProduct.php:462
+#: config/wcbt-setting.php:550
+#: views/frontend/classic/compare-product/compare-list.php:70
+msgid "Title"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:285
+msgid "Filter"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:286
+msgid "Type your title here"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:295
+msgid "Show icon"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:309
+#: app/Elementor/Widgets/FilterProduct.php:478
+#: app/Elementor/Widgets/FilterProduct.php:1218
+msgid "Icon"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:351
+msgid "Show Selected list"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:365
+msgid "Item"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:372
+msgid "Space Bottom(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:386
+msgid "Space Right(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:400
+msgid "Style Toggle Dropdown"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:408
+msgid "Offset"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:421
+#: app/Elementor/Widgets/FilterProduct.php:611
+#: app/Elementor/Widgets/FilterProduct.php:1491
+#: app/Elementor/Widgets/ProductFilterSelected.php:151
+#: app/Elementor/Widgets/WishListButton.php:138
+#: app/Elementor/Widgets/WishListButton.php:465
+msgid "Padding"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:441
+#: app/Elementor/Widgets/FilterProduct.php:729
+#: app/Elementor/Widgets/FilterProduct.php:1522
+#: app/Elementor/Widgets/ProductFilterSelected.php:182
+#: app/Elementor/Widgets/WishListButton.php:201
+#: app/Elementor/Widgets/WishListButton.php:506
+msgid "Border Radius"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:470
+#: app/Elementor/Widgets/FilterProduct.php:590
+#: app/Elementor/Widgets/FilterProduct.php:1203
+#: app/Elementor/Widgets/ProductFilterSelected.php:144
+#: app/Elementor/Widgets/WishListButton.php:128
+msgid "Typography"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:486
+#: app/Elementor/Widgets/FilterProduct.php:1226
+msgid "Icon size(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:500
+#: app/Elementor/Widgets/FilterProduct.php:623
+#: app/Elementor/Widgets/FilterProduct.php:767
+#: app/Elementor/Widgets/FilterProduct.php:946
+#: app/Elementor/Widgets/FilterProduct.php:1253
+#: app/Elementor/Widgets/ProductFilterSelected.php:196
+#: app/Elementor/Widgets/WishListButton.php:242
+msgid "Normal"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:506
+#: app/Elementor/Widgets/FilterProduct.php:544
+#: app/Elementor/Widgets/FilterProduct.php:629
+#: app/Elementor/Widgets/FilterProduct.php:646
+#: app/Elementor/Widgets/FilterProduct.php:773
+#: app/Elementor/Widgets/FilterProduct.php:848
+#: app/Elementor/Widgets/FilterProduct.php:1259
+#: app/Elementor/Widgets/FilterProduct.php:1298
+#: app/Elementor/Widgets/FilterProduct.php:1318
+#: app/Elementor/Widgets/FilterProduct.php:1660
+#: app/Elementor/Widgets/ProductFilterSelected.php:120
+#: app/Elementor/Widgets/ProductFilterSelected.php:202
+#: app/Elementor/Widgets/ProductFilterSelected.php:255
+#: app/Elementor/Widgets/WishListButton.php:248
+#: app/Elementor/Widgets/WishListButton.php:307
+#: app/Elementor/Widgets/WishListButton.php:366
+#: app/Elementor/Widgets/WishListButton.php:477
+#: config/variation.php:10
+#: config/variation.php:16
+msgid "Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:516
+#: app/Elementor/Widgets/FilterProduct.php:554
+#: app/Elementor/Widgets/FilterProduct.php:1269
+#: app/Elementor/Widgets/FilterProduct.php:1308
+msgid "Background"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:526
+#: app/Elementor/Widgets/FilterProduct.php:564
+#: app/Elementor/Widgets/FilterProduct.php:1279
+#: app/Elementor/Widgets/WishListButton.php:285
+#: app/Elementor/Widgets/WishListButton.php:344
+#: app/Elementor/Widgets/WishListButton.php:403
+msgid "Icon Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:538
+#: app/Elementor/Widgets/FilterProduct.php:640
+#: app/Elementor/Widgets/FilterProduct.php:808
+#: app/Elementor/Widgets/FilterProduct.php:986
+#: app/Elementor/Widgets/WishListButton.php:360
+msgid "Active"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:582
+msgid "Label"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:597
+msgid "Space(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:662
+msgid "Checkbox"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:669
+msgid "Box size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:695
+#: app/Elementor/Widgets/FilterProduct.php:907
+msgid "Offset Right"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:740
+msgid "Checked Size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:783
+#: app/Elementor/Widgets/FilterProduct.php:814
+#: app/Elementor/Widgets/FilterProduct.php:1450
+#: app/Elementor/Widgets/ProductFilterSelected.php:212
+#: app/Elementor/Widgets/ProductFilterSelected.php:265
+#: app/Elementor/Widgets/WishListButton.php:261
+#: app/Elementor/Widgets/WishListButton.php:320
+#: app/Elementor/Widgets/WishListButton.php:379
+#: app/Elementor/Widgets/WishListButton.php:488
+#: config/wcbt-setting.php:603
+msgid "Background Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:794
+#: app/Elementor/Widgets/FilterProduct.php:827
+#: app/Elementor/Widgets/FilterProduct.php:952
+#: app/Elementor/Widgets/FilterProduct.php:972
+#: app/Elementor/Widgets/FilterProduct.php:992
+#: app/Elementor/Widgets/ProductFilterSelected.php:223
+#: app/Elementor/Widgets/ProductFilterSelected.php:276
+#: app/Elementor/Widgets/WishListButton.php:272
+#: app/Elementor/Widgets/WishListButton.php:331
+#: app/Elementor/Widgets/WishListButton.php:390
+msgid "Border Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:855
+#: app/Elementor/Widgets/WishListButton.php:149
+msgid "Width"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:881
+#: app/Elementor/Widgets/WishListButton.php:171
+msgid "Height"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:966
+#: app/Elementor/Widgets/FilterProduct.php:1292
+#: app/Elementor/Widgets/ProductFilterSelected.php:249
+#: app/Elementor/Widgets/WishListButton.php:301
+msgid "Hover"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1011
+msgid "Ranger"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1018
+msgid "Line"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1026
+msgid "Height(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1039
+msgid "Width(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1054
+msgid "Button Size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1065
+msgid "Line Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1076
+msgid "Active Line Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1087
+msgid "Button Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1098
+msgid "Button Radius"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1109
+#: app/Elementor/Widgets/FilterProduct.php:1503
+#: app/Elementor/Widgets/ProductFilterSelected.php:163
+msgid "Margin"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1125
+msgid "Ratting"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1132
+msgid "Star"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1140
+msgid "Star Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1150
+msgid "Star Size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1161
+msgid "Space Between"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1192
+msgid "Button Toggle"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1239
+msgid "Icon Space(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1332
+msgid "Count"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1345
+msgid "Form Toggle"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1355
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1361
+#: app/Elementor/Widgets/WishListButton.php:439
+msgid "Left"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1365
+#: app/Elementor/Widgets/WishListButton.php:447
+msgid "Right"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1376
+msgid "Offset(px)"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1390
+msgid "Width Content"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1420
+msgid "Max Height"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1472
+#: app/Elementor/Widgets/FilterProduct.php:1536
+msgid "Counter"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1543
+#: config/wcbt-setting.php:611
+msgid "Text Color"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1553
+msgid "Font Size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1570
+msgid "Space"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1589
+#: app/Elementor/Widgets/ProductFilterSelected.php:52
+msgid "Reset Button"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1604
+#: app/Elementor/Widgets/ProductFilterSelected.php:67
+msgid "Selected List"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1616
+#: app/Elementor/Widgets/ProductFilterSelected.php:76
+msgid "Icon Remove"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1624
+#: app/Elementor/Widgets/ProductFilterSelected.php:84
+#: app/Elementor/Widgets/WishListButton.php:212
+msgid "Icon size"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1642
+#: app/Elementor/Widgets/ProductFilterSelected.php:102
+msgid "Icon Space"
+msgstr ""
+
+#: app/Elementor/Widgets/FilterProduct.php:1670
+#: app/Elementor/Widgets/ProductFilterSelected.php:130
+msgid "Color Hover"
+msgstr ""
+
+#: app/Elementor/Widgets/ProductFilterSelected.php:322
+#: views/frontend/classic/compare-product/compare-list.php:146
+#: views/frontend/classic/product-filter/availability.php:22
+msgid "In stock"
+msgstr ""
+
+#: app/Elementor/Widgets/ProductFilterSelected.php:326
+msgid "Five stars"
+msgstr ""
+
+#: app/Elementor/Widgets/ProductFilterSelected.php:330
+#: views/frontend/classic/product-filter/selection.php:141
+msgid "Clear All"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:49
+msgid "Content"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:55
+msgid "Display"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:59
+#: app/Elementor/Widgets/WishListButton.php:67
+#: config/variation.php:39
+msgid "Text"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:60
+msgid "Icon & ToolTip"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:69
+msgid "Add WishList"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:78
+msgid "Choose Icon"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:95
+msgid "Text Tooltip"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:97
+#: app/Elementor/Widgets/WishListButton.php:423
+#: config/wcbt-setting.php:117
+#: config/wcbt-setting.php:230
+#: config/wcbt-setting.php:322
+msgid "Tooltip"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:106
+msgid "Text Active Tooltip"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:108
+msgid "Remove Tooltip"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:120
+msgid "Style"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:433
+msgid "Orientation"
+msgstr ""
+
+#: app/Elementor/Widgets/WishListButton.php:443
+msgid "Top"
+msgstr ""
+
+#: app/Helpers/BreadCrumb.php:13
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: app/Helpers/RestApi.php:62
+msgid "Showing only one result."
+msgstr ""
+
+#: app/Helpers/RestApi.php:66
+msgid "Showing the last products of %s results."
+msgstr ""
+
+#: app/Helpers/RestApi.php:70
+msgid "Showing %1$s of %2$s results."
+msgstr ""
+
+#: app/Helpers/Template.php:157
+msgid "Path %s not exists."
+msgstr ""
+
+#: app/Helpers/TemplateHooks/WishList.php:96
+msgctxt "sale percentage"
+msgid "Sale  %d%%"
+msgstr ""
+
+#: app/Widgets/ProductFilter.php:17
+msgid "(WCBT) Product Filter"
+msgstr ""
+
+#: app/Widgets/ProductFilter.php:19
+msgid "This widget only works on Archive Product page and Shop page."
+msgstr ""
+
+#: config/variation.php:17
+msgid "Choose a color"
+msgstr ""
+
+#: config/variation.php:24
+#: config/variation.php:30
+#: config/wcbt-setting.php:635
+msgid "Image"
+msgstr ""
+
+#: config/variation.php:31
+#: config/wcbt-setting.php:636
+#: views/admin/fields/file-upload.php:96
+msgid "Select Image"
+msgstr ""
+
+#: config/wcbt-setting.php:39
+msgid "WishList"
+msgstr ""
+
+#: config/wcbt-setting.php:44
+#: config/wcbt-setting.php:157
+#: config/wcbt-setting.php:270
+#: config/wcbt-setting.php:355
+#: config/wcbt-setting.php:517
+#: config/wcbt-setting.php:714
+msgid "Mode"
+msgstr ""
+
+#: config/wcbt-setting.php:45
+#: config/wcbt-setting.php:118
+#: config/wcbt-setting.php:158
+#: config/wcbt-setting.php:231
+#: config/wcbt-setting.php:271
+#: config/wcbt-setting.php:323
+#: config/wcbt-setting.php:356
+#: config/wcbt-setting.php:372
+#: config/wcbt-setting.php:380
+#: config/wcbt-setting.php:518
+#: config/wcbt-setting.php:690
+#: config/wcbt-setting.php:715
+#: config/wcbt-setting.php:988
+msgid "Enable/Disable"
+msgstr ""
+
+#: config/wcbt-setting.php:52
+#: config/wcbt-setting.php:165
+msgid "Page"
+msgstr ""
+
+#: config/wcbt-setting.php:125
+msgid "Add WishList Tooltip Text"
+msgstr ""
+
+#: config/wcbt-setting.php:132
+msgid "Remove WishList Tooltip Text"
+msgstr ""
+
+#: config/wcbt-setting.php:139
+msgid "WishList Type"
+msgstr ""
+
+#: config/wcbt-setting.php:152
+msgid "Compare"
+msgstr ""
+
+#: config/wcbt-setting.php:238
+msgid "Add Compare Tooltip Text"
+msgstr ""
+
+#: config/wcbt-setting.php:245
+msgid "Remove Compare Tooltip Text"
+msgstr ""
+
+#: config/wcbt-setting.php:252
+msgid "Compare Type"
+msgstr ""
+
+#: config/wcbt-setting.php:265
+msgid "Quick View"
+msgstr ""
+
+#: config/wcbt-setting.php:330
+msgid "Tooltip Text"
+msgstr ""
+
+#: config/wcbt-setting.php:337
+msgid "Quick View Type"
+msgstr ""
+
+#: config/wcbt-setting.php:350
+msgid "Variation"
+msgstr ""
+
+#: config/wcbt-setting.php:371
+msgid "Display on Product List"
+msgstr ""
+
+#: config/wcbt-setting.php:379
+msgid "Show Selected Name"
+msgstr ""
+
+#: config/wcbt-setting.php:512
+msgid "MaxSale Popup"
+msgstr ""
+
+#: config/wcbt-setting.php:551
+msgid "Special gift for our subscriber title"
+msgstr ""
+
+#: config/wcbt-setting.php:557
+#: views/frontend/classic/compare-product/compare-list.php:99
+msgid "Description"
+msgstr ""
+
+#: config/wcbt-setting.php:558
+msgid "Each user is separated by a comma."
+msgstr ""
+
+#: config/wcbt-setting.php:561
+msgid "Enter your email to get 50% off for all products."
+msgstr ""
+
+#: config/wcbt-setting.php:672
+msgid "Display on"
+msgstr ""
+
+#: config/wcbt-setting.php:676
+msgid "All pages"
+msgstr ""
+
+#: config/wcbt-setting.php:680
+msgid "Home page only"
+msgstr ""
+
+#: config/wcbt-setting.php:689
+msgid "Repeat open automatically"
+msgstr ""
+
+#: config/wcbt-setting.php:697
+msgid "Time (hour)"
+msgstr ""
+
+#: config/wcbt-setting.php:700
+msgid ""
+"Stop automatically showing this popup to customers who have already \r\n"
+"                    converted or closed popup."
+msgstr ""
+
+#: config/wcbt-setting.php:709
+#: config/wcbt-setting.php:720
+msgid "Product Filter"
+msgstr ""
+
+#: config/wcbt-setting.php:733
+msgid "Category"
+msgstr ""
+
+#: config/wcbt-setting.php:751
+msgid "Category Number"
+msgstr ""
+
+#: config/wcbt-setting.php:759
+msgid "Attribute Term Number"
+msgstr ""
+
+#: config/wcbt-setting.php:981
+msgid "Advanced"
+msgstr ""
+
+#: config/wcbt-setting.php:986
+msgid "Debug Mode"
+msgstr ""
+
+#: config/widgets/sidebars.php:7
+msgid "Product Archive Sidebar"
+msgstr ""
+
+#: config/widgets/sidebars.php:8
+msgid "Display widget items in the product sidebar area."
+msgstr ""
+
+#: views/admin/fields/file-upload.php:98
+#: views/frontend/classic/compare-product/compare-list.php:38
+msgid "Remove"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:39
+msgid "Create a new page"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:43
+msgid "New page title"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:45
+msgid "Confirm"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:47
+msgid "Cancel [ESC]"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:55
+#: assets/src/js/admin/mixins/wp-dropdown-page.js:81
+msgid "Edit page"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:58
+#: assets/src/js/admin/mixins/wp-dropdown-page.js:82
+msgid "View page"
+msgstr ""
+
+#: views/admin/settings.php:26
+msgid "Version %s"
+msgstr ""
+
+#: views/admin/settings.php:86
+msgid "Save Changes"
+msgstr ""
+
+#: views/frontend/classic/compare-product/compare-list.php:28
+msgid "Products"
+msgstr ""
+
+#: views/frontend/classic/compare-product/compare-list.php:119
+msgid "SKU"
+msgstr ""
+
+#: views/frontend/classic/compare-product/compare-list.php:137
+msgid "Stock"
+msgstr ""
+
+#: views/frontend/classic/compare-product/compare-list.php:158
+msgid "Weight"
+msgstr ""
+
+#: views/frontend/classic/compare-product/compare-list.php:175
+msgid "Dimension"
+msgstr ""
+
+#: views/frontend/classic/product-filter/availability.php:32
+msgid "Out of stock"
+msgstr ""
+
+#: views/frontend/classic/quick-view/product-image.php:73
+msgid "Awaiting product image"
+msgstr ""
+
+#: views/frontend/classic/shared/product-list/table-product-item/header.php:5
+msgid "Product"
+msgstr ""
+
+#: views/frontend/classic/shared/product-list/table-product-item/header.php:7
+msgid "Add to cart"
+msgstr ""
+
+#: views/frontend/classic/variable/variable.php:47
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: views/frontend/classic/variable/variable.php:82
+msgid "Choose an option"
+msgstr ""
+
+#: views/frontend/classic/variable/variable.php:136
+msgid "Clear"
+msgstr ""
+
+#: woo-booster-toolkit.php:242
+msgid "Woo Booster Toolkit requires WooCommerce to be activated."
+msgstr ""
+
+#: woo-booster-toolkit.php:247
+msgid "Activate WooCommerce Now"
+msgstr ""
+
+#: woo-booster-toolkit.php:260
+msgid "Woo Booster Toolkit requires WooCommerce to be installed."
+msgstr ""
+
+#: woo-booster-toolkit.php:265
+msgid "Install WooCommerce Now"
+msgstr ""
+
+#: assets/src/js/admin/mixins/wp-dropdown-page.js:35
+msgid "Please enter the title of the page"
+msgstr ""
+
+#: assets/src/js/frontend/compare-product/compare-list.js:58
+#: assets/src/js/frontend/compare-product/toggle-compare.js:102
+msgid "Product Compare removed"
+msgstr ""
+
+#: assets/src/js/frontend/compare-product/toggle-compare.js:99
+msgid "Product Compare added"
+msgstr ""
+
+#: assets/src/js/frontend/sale-notice/popup.js:95
+msgid " minutes ago"
+msgstr ""
+
+#: assets/src/js/frontend/wishlist/product-list.js:126
+#: assets/src/js/frontend/wishlist/product-list.js:140
+#: assets/src/js/frontend/wishlist/toggle-wishlist.js:36
+#: assets/src/js/frontend/wishlist/toggle-wishlist.js:55
+msgid "Product WishList removed"
+msgstr ""
+
+#: assets/src/js/frontend/wishlist/toggle-wishlist.js:33
+#: assets/src/js/frontend/wishlist/toggle-wishlist.js:59
+msgid "Product WishList added"
+msgstr ""
+
+#: assets/src/js/mixins/media.js:16
+msgid "Select Images"
+msgstr ""
+
+#: assets/src/js/mixins/media.js:17
+msgid "Use these images"
+msgstr ""

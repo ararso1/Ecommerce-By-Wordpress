@@ -1,0 +1,1423 @@
+# Translation of WordPress - 6.0.x - Administration - Network Admin in Amharic
+# This file is distributed under the same license as the WordPress - 6.0.x - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-24 18:30:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: am_ET\n"
+"Project-Id-Version: WordPress - 6.0.x - Administration - Network Admin\n"
+
+#: wp-admin/network/users.php:271
+msgid "Users deleted."
+msgstr "ተጠቃሚዎች ተሰርዘዋል።"
+
+#: wp-admin/network/users.php:268
+msgid "Users removed from spam."
+msgstr "ተጠቃሚዎቹ ከ አይፈለጌ መልዕክት ተወግደዋል።"
+
+#: wp-admin/network/users.php:265
+msgid "Users marked as spam."
+msgstr "ተጠቃሚዎቹ አይፈለጌ ምልክት ተደርጎባቸዋል።"
+
+#: wp-admin/network/users.php:236
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "ወደ አርትዖት ተጠቃሚ መገለጫ ገጽ በመሄድ እና ያንን መብት ለመስጠት ሳጥኑን በመፈተሽ አንድ ነባር ተጠቃሚ ተጨማሪ አስተዳዳሪ ማድረግ ይችላሉ ።"
+
+#: wp-admin/network/users.php:235
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "የጥቅሙ እርምጃ የተመረጡ ተጠቃሚዎችን በቋሚነት ይሰረዛል ፣ ወይም እንደ አይፈለጌ የተመረጡትን ምልክት / ምልክት ያድርጉ ። የስፓም ተጠቃሚዎች ፖስታዎች ይወገዳሉ እናም በተመሳሳይ የኢሜይል አድራሻዎች እንደገና መመዝገብ አይችሉም ።"
+
+#: wp-admin/network/users.php:234
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "በሰንጠረዡ ራስጌ ላይ ጠቅ በማድረግ ሰንጠረዡን መደርደር ትችላለህ እንዲሁም ከተጠቃሚዎች ዝርዝር በላይ ያሉትን አዶዎች በመጠቀም በዝርዝሩና በውስጥ ዕይታዎች መካከል ይቀይሩ ።"
+
+#: wp-admin/network/users.php:233
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "በተጨማሪም ወደ ተጠቃሚው&#8217; የእያንዳንዱ የተጠቃሚ ስም ላይ ጠቅ በማድረግ የመገለጫ ገጽ መሄድ ይችላሉ ።"
+
+#: wp-admin/network/users.php:232
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "የአርትዖት አገናኞቹ እንዲታዩ ለማድረግ በዝርዝሩ ላይ በማናቸውም ተጠቃሚ ላይ ደብቅ ። በግራ በኩል ያለው የአርትዖት አገናኝ ወደ አርትዖት ተጠቃሚ መገለጫ ገጽ ይወስድሃል ፤ በማንኛውም የጣቢያ ስም በስተቀኝ ያለው የአርታኢ አገናኝ ለዛ ጣቢያ የአርታዒ ጣቢያ ስክሪን ይሄዳል ።"
+
+#: wp-admin/network/users.php:231
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "ይህ ሰንጠረዥ በአውታረ መረቡ ውስጥ ያሉትን ሁሉንም ተጠቃሚዎች እና የተመደቡባቸውን ጣቢያዎች ያሳያል ፡፡"
+
+#. translators: %s: User login.
+#: wp-admin/network/users.php:87
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "ማስጠንቀቂያ! ተጠቃሚ ሊሻሻል አይችልም ። ተጠቃሚው %s የአውታረ መረብ አስተዳዳሪ ነው ።"
+
+#: wp-admin/network/user-new.php:55
+msgid "Cannot add user."
+msgstr "ተጠቃሚን መጨመር አልተቻለም።"
+
+#: wp-admin/network/user-new.php:41
+msgid "Cannot create an empty user."
+msgstr "ባዶ ተጠቃሚ መፍጠር አልተቻለም።"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:242
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">በአውታረ መረብ ገጽ ላይ የሚገኝ ተጠቃሚዎች</a>"
+
+#: wp-admin/network/user-new.php:23
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "ጣቢያ ሳይኖራቸው ወደ አውታረ መረቡ የተፈረሙ ተጠቃሚዎች ወደ ዋናው ወይም ቀዳሚ ዳሽቦርድ ጣቢያ ደንበኝነት እንደሚመዘገቡ ታክለዋል ፣ መለያዎቻቸውን ለማስተዳደር መገለጫ ገጾች ይሰጧቸዋል ። እነዚህ ተጠቃሚዎች ዳሽቦርድ እና የኔ ጥየቃዎችን በዋና ዳሰሳ ውስጥ የሚያዩዋቸው ስፍራ እስኪፈጠርላቸው ድረስ ብቻ ነው ።"
+
+#: wp-admin/network/user-new.php:22
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "ተጠቃሚ መፍጠር በአውታረ መረብ ላይ አዲስ የተጠቃሚ መለያ ያዘጋጃል እናም ለተመዝጋቢው የተጠቃሚ ስም እና የይለፍ ቃል በኢሜይል ይልካል።"
+
+#: wp-admin/network/upgrade.php:141
+msgid "WordPress has been updated! Next and final step is to individually upgrade the sites in your network."
+msgstr "ዎርድፕሬስ ዘምኗል! ቀጣዩ እና የመጨረሻው እርምጃ በአውታረ መረብዎ ውስጥ ያሉትን ጣቢያዎች በግል ማሻሻል ነው።"
+
+#: wp-admin/network/upgrade.php:125
+msgid "Next Sites"
+msgstr "ቀጣይ ጣቢያዎች"
+
+#: wp-admin/network/upgrade.php:125
+msgid "If your browser does not start loading the next page automatically, click this link:"
+msgstr "አሳሽዎ የሚቀጥለውን ገጽ በራሱ መጫን ካልጀመረ፣ ይህን ሊንክ ጠቅ ያድርጉ፥"
+
+#. translators: 1: Site URL, 2: Server error message.
+#: wp-admin/network/upgrade.php:99
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "ማስጠንቀቂያ! ችግር %1$s በማዘመን ላይ ነው ። አገልጋይዎ በእሱ ላይ ከሚሄዱ ጣቢያዎች ጋር መገናኘት ላይችል ይችላል ። የስህተት መልዕክት ፥%2$s"
+
+#: wp-admin/network/upgrade.php:74
+msgid "All done!"
+msgstr "ሁሉም ተጠናቋል!"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">የአውታረ መረብ አስተዳዳሪ የማደስ መረጃዎች</a>"
+
+#: wp-admin/network/upgrade.php:26
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "ይህ ሂደት በማናቸውም ምክንያት ካልተሳካ ተጠቃሚዎች ወደ ጣቢያዎቻቸው ለመግባት ሲሞክሩ ተመሳሳይ ዝማኔ እንዲከናወን ያስገድዳሉ ።"
+
+#: wp-admin/network/upgrade.php:25
+msgid "If a version update to core has not happened, clicking this button will not affect anything."
+msgstr "የስሪት ዝማኔ ወደ ኮር ካልተከሰተ፣ ይህን ቁልፍ ጠቅ ማድረግ ምንም ተጽዕኖ የለውም።"
+
+#: wp-admin/network/upgrade.php:24
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "ወደ አዲስ የ WordPሬስ ስሪት በ ዝመናዎች / ተገኝ ዝመናዎች (በ አውታረ መረብ አስተዳደር አሰሳ ምናሌ ወይም የሰንጠረዥ አሞሌ በኩል) ከዘመንክ ይህን ገጽ ብቻ ተጠቀም ። የላይኛው የአውታረ መረብ አዝራርን ጠቅ በማድረግ በእያንዳንዱ አውታረ መረብ ውስጥ በአንድ ጊዜ አምስት ይከፈላል እንዲሁም ማናቸውንም የውሂብ ጎታ አዘምኖች በሥራ ላይ መዋላቸውን ያረጋግጡ ።"
+
+#: wp-admin/network/themes.php:418
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "አንድ ገጽታ በዋናው ጣቢያ ላይ ንቁ ሆኖ መሰረዝ አይችሉም።"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:412
+msgid "%s theme will no longer be auto-updated."
+msgid_plural "%s themes will no longer be auto-updated."
+msgstr[0] "የ %s ገጽታ ከአሁን በኋላ በራስ-ሰር አይዘምንም። "
+msgstr[1] "የ %s ገጽታዎች ከእንግዲህ በራስሰር አይዘመኑም። "
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:403
+msgid "%s theme will be auto-updated."
+msgid_plural "%s themes will be auto-updated."
+msgstr[0] "%s ገጽታ በራስሰር ይታደሳል።"
+msgstr[1] "%s ገጽታዎቹ በራስሰር ይታደሳሉ።"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/themes.php:394
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s ገጽታ ሰርዝ።"
+msgstr[1] "%s ገጽታዎች ሰርዝ።"
+
+#: wp-admin/network/themes.php:332
+msgid "Themes list navigation"
+msgstr "ገጽታዎች ዝርዝር አሰሳ"
+
+#: wp-admin/network/themes.php:324
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">በአውታረ መረብ ገጽ ላይ የሚገኝ ሰነድ</a>"
+
+#: wp-admin/network/themes.php:302
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "ገጽታዎች በአውታረ መረብ አስተዳዳሪ አማካኝነት በአርታዒ ጣቢያው ስክሪን ላይ በመመስረት በጣቢያ ላይ ሊያንቀሳቅሱ ይችላሉ (እርሱም የ ተፅእኖዎች ትር አለው) ፣ ወደዛ በ ኤዲት የድርጊት አገናኝ በኩል በሁሉም የሳይት ገጽ ላይ ያግኙ ። የአውታረመረብ አድናቂዎች ብቻ ገጽዎችን መጫን ወይም አርትዕ ማድረግ ይችላሉ ።"
+
+#: wp-admin/network/themes.php:301
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "የአውታረ መረቡ አስተዳዳሪ በጥቅም ላይ ያለውን ገጽታ ካሰናከለ አሁንም በዚያ ጣቢያ ላይ ተመርጦ ሊቆይ ይችላል ፡፡ ሌላ ገጽታ ከተመረጠ የአካል ጉዳተኛ ገጽታ በጣቢያው&#8217; ገጽታ  ገጽታዎች > ገጽታ ላይ አይታይም ፡፡ "
+
+#: wp-admin/network/themes.php:300
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "ይህ ማያ ገጽ ለእያንዳንዱ ጣቢያ በሚታየው ምናሌ ውስጥ ለመምረጥ የሚመጡትን ገጽታዎች ማካተት ያነቃል እና ያሰናክላል። አንድ ጣቢያ በአሁኑ ጊዜ እየተጠቀመበት ያለውን ገጽታ አያነቃም ወይም አያቦዝንም ፡፡ "
+
+#: wp-admin/network/themes.php:226
+msgid "Sorry, you are not allowed to change themes automatic update settings."
+msgstr "ይቅርታ፣ ገጽታዎችን በራስሰር የማደስ ቅንብሮችን እንዲለውጡ አልተፈቀደልዎትም።"
+
+#: wp-admin/network/themes.php:183
+msgid "No, return me to the theme list"
+msgstr "አይ፣ ወደ ገጽታ ዝርዝር መልሰኝ"
+
+#: wp-admin/network/themes.php:176
+msgid "Yes, delete these themes"
+msgstr "አዎ፣ ይህን ገፆች ሰርዝ"
+
+#: wp-admin/network/themes.php:174
+msgid "Yes, delete this theme"
+msgstr "አዎ ፣ ይህን ገጽታ ሰርዝ"
+
+#: wp-admin/network/themes.php:160
+msgid "Are you sure you want to delete these themes?"
+msgstr "ይህን ገጽታ ለመሰረዝ መፈለግዎን እርግጠኛ ነዎት?"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: wp-admin/network/themes.php:150
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s በ %2$s"
+
+#: wp-admin/network/themes.php:143
+msgid "You are about to remove the following themes:"
+msgstr "የሚከተሉትን ገጽታዎች ልታስወገደ ነው፥"
+
+#: wp-admin/network/themes.php:142
+msgid "These themes may be active on other sites in the network."
+msgstr "እነዚህ ገጽታዎች በአውታረ መረቡ ውስጥ በሌሎች ጣቢያዎች ላይ ንቁ ሊሆኑ ይችላሉ።"
+
+#: wp-admin/network/themes.php:141
+msgid "Delete Themes"
+msgstr "ገጽታዎች ሰርዝ"
+
+#: wp-admin/network/themes.php:139
+msgid "You are about to remove the following theme:"
+msgstr "የሚከተሉትን ገጽታ ሊሰርዙ ነው፥"
+
+#: wp-admin/network/themes.php:138
+msgid "This theme may be active on other sites in the network."
+msgstr "ይህ ገጽታ በአውታረ መረብ ውስጥ ባሉ ሌሎች ጣቢያዎች ላይ ንቁ ሊሆን ይችላል።"
+
+#: wp-admin/network/themes.php:137
+msgid "Delete Theme"
+msgstr "ገጽታ ሰርዝ "
+
+#: wp-admin/network/themes.php:102
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "ይቅርታ፣ የዚህ ጣቢያ ገጽታዎችን መሰረዝ አልተፈቀደልዎትም።"
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "ይቅርታ፣ የአውታረ መረብ ገጽታዎችን እንዲያስተዳድሩ አልተፈቀደልዎትም።"
+
+#: wp-admin/network/sites.php:339
+msgid "Site marked as spam."
+msgstr "ጣብያ አይፈለጌ ምልክት ተደርጎበታል።"
+
+#: wp-admin/network/sites.php:336
+msgid "Site removed from spam."
+msgstr "ጣብያ ከ አይፈለጌ ተወግዷል።"
+
+#: wp-admin/network/sites.php:333
+msgid "Site deactivated."
+msgstr "ጣቢያ ቦዝኗል።"
+
+#: wp-admin/network/sites.php:330
+msgid "Site activated."
+msgstr "ጣቢያ ነቅቷል።"
+
+#: wp-admin/network/sites.php:327
+msgid "Site unarchived."
+msgstr "ጣቢያው ከማህደር ወጥቷል።"
+
+#: wp-admin/network/sites.php:324
+msgid "Site archived."
+msgstr "ጣቢያው ለታሪክ ተቀምጧል።"
+
+#: wp-admin/network/sites.php:321
+msgid "Sorry, you are not allowed to delete that site."
+msgstr " ይቅርታ ፣ ይህን ገጽ መሰርዝ አልተፈቀደልህም።"
+
+#: wp-admin/network/sites.php:318
+msgid "Site deleted."
+msgstr "ጣቢያው ተሰርዘዋል።"
+
+#: wp-admin/network/sites.php:315
+msgid "Sites deleted."
+msgstr "ጣቢያዎቹ ተሰርዘዋል።"
+
+#: wp-admin/network/sites.php:312
+msgid "Sites marked as spam."
+msgstr "ጣቢያዎች አይፈለጌ ምልክት ተደርጎባቸዋል።"
+
+#: wp-admin/network/sites.php:309
+msgid "Sites removed from spam."
+msgstr "ጣቢያዎች ከ አይፈለጌ መልዕክት ተወግደዋል።"
+
+#: wp-admin/network/sites.php:196
+msgid "You are about to delete the following sites:"
+msgstr "የሚከተሉትን ድረ ገፆች ሊሰርዙ ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:168
+msgid "Sorry, you are not allowed to delete the site %s."
+msgstr " ይቅርታ፣ ይህን ጣቢያ %s መሰርዝ አልተፈቀደልህም።"
+
+#: wp-admin/network/sites.php:115 wp-admin/network/sites.php:191
+msgid "Confirm your action"
+msgstr "እርምጃዎን ያረጋግጡ"
+
+#: wp-admin/network/sites.php:106 wp-admin/network/sites.php:224
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "ይቅርታ፣ የአሁኑን ጣቢያ እንዲለውጡ አልተፈቀደልዎትም።"
+
+#: wp-admin/network/sites.php:90
+msgid "The requested action is not valid."
+msgstr "የተጠየቀው እርምጃ ዋጋ የለውም።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:82
+msgid "You are about to mark the site %s as not mature."
+msgstr "ይህ ጣቢያ %s  ምልክት ያላደገ ሊደረግበት ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:80
+msgid "You are about to mark the site %s as mature."
+msgstr "ይህ ጣቢያ %s  ምልክት እድገት ሊደረግበት ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:78
+msgid "You are about to delete the site %s."
+msgstr "ይህ ጣቢያ  %s ሊሰረዝ ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:76
+msgid "You are about to mark the site %s as spam."
+msgstr " ይህ ጣቢያ %s  ምልክት አይፈለጌ ሊደረግበት ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:74
+msgid "You are about to unspam the site %s."
+msgstr " ይህ ጣቢያ  %s ከአይፈለጌ ልታወጧው ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:72
+msgid "You are about to archive the site %s."
+msgstr " ይህ ጣቢያ  %s ማህደር ውስጥ ልታስቀምጠው ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:70
+msgid "You are about to unarchive the site %s."
+msgstr " ይህ ጣቢያ  %s ከማህደር ልታወጧው ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:68
+msgid "You are about to deactivate the site %s."
+msgstr " ይህ ጣቢያ  %s ሊባዝን ነው።"
+
+#. translators: %s: Site URL.
+#: wp-admin/network/sites.php:66
+msgid "You are about to activate the site %s."
+msgstr "ይህ ጣቢያ  %s ሊያነቁት ነው።"
+
+#: wp-admin/network/sites.php:53
+msgid "Sites list"
+msgstr "የጣቢያ ዝርዝር"
+
+#: wp-admin/network/sites.php:52
+msgid "Sites list navigation"
+msgstr "የጣቢያ ዝርዝር አሰሳ"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "በደማቅ ራስጌዎች ላይ ጠቅ ማድረግ ይህን ሰንጠረዥ እንደገና መደርደር ይችላል ።"
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "የጣቢያ መታወቂያ በውስጥ ጥቅም ላይ ይውላል ፣ እናም በጣቢያው የፊት ጫፍ ላይ ወይም ለተጠቃሚዎች / ተመልካቾች አይታይም ።"
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the front-end site live."
+msgstr "የጣቢያውን የፊት ገጽ በቀጥታ ለማየት ይጎብኙ።"
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "ከማረጋገጫ ስክሪን በኋላ ቋሚ እርምጃ የሆነውን ሰርዝ ።"
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "የማረጋገጫ ስክሪን ወደሚያመሩ ሰነዶችን አከማች ፣ መዝግብ ፣ እና ስፓም ። እነዚህ ድርጊቶች ከጊዜ በኋላ ሊለወጡ ይችላሉ ።"
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "ዳሽቦርድ ወደዚያ ጣቢያ ወደ ዳሽቦርድ ያመራል ።"
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "ወደ የተለየ የ አርትዖት ጣቢያ ማያ ገጽ አገናኝ ።"
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "በእያንዳንዱ ጣቢያ ላይ መደበቅ ሰባት አማራጮችን ያሳያል (ለዋናው ጣቢያ ሦስት ፡"
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "ይህ በዚህ አውታረ መረብ ላይ ያሉት ሁሉም ጣቢያዎች ዋና ሰንጠረዥ ነው። ከሠንጠረ በስተቀኝ በኩል ያሉትን አዶዎችን በመጠቀም በዝርዝሮች እና በተነፃፃሪ እይታዎች መካከል ይቀያይሩ።"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "አዲስ ወደ አዲሱ የሳይት ስክሪን ይወስድብሃል ። በስም ፣ መታወቂያ ቁጥር ወይም IP አድራሻ ጣቢያ መፈለግ ይችላሉ ። የገጽ ዕይታ አማራጮች በአንድ ገጽ ላይ ምን ያህል ጣቢያዎች እንዲታዩ ለመምረጥ ይፈቅዱልዎታል ።"
+
+#: wp-admin/network/site-users.php:356 wp-admin/network/user-new.php:137
+msgid "A password reset link will be sent to the user via email."
+msgstr "የይለፍ ቃል ዳግም ማስጀመሪያ ሊንክ በኢሜል ለተጠቃሚው ይላካል ፡፡"
+
+#: wp-admin/network/site-users.php:319 wp-admin/network/user-new.php:149
+msgid "Add User"
+msgstr "ተጠቃሚ መዝግብ"
+
+#: wp-admin/network/site-users.php:268
+msgid "Duplicated username or email address."
+msgstr "የተደጋገመ የመጠቀሚያ ስም ወይም ኢሜይል አድራሻ።"
+
+#: wp-admin/network/site-users.php:265
+msgid "Enter the username and email."
+msgstr "የተጠቃሚ ስም እና ኢሜይል ያስገቡ።"
+
+#: wp-admin/network/site-users.php:262
+msgid "User created."
+msgstr "ተጠቃሚ ተፈጥሯል።"
+
+#: wp-admin/network/site-users.php:259
+msgid "Select a user to remove."
+msgstr "ለማስወገድ ተጠቃሚ ይምረጡ።"
+
+#: wp-admin/network/site-users.php:253
+msgid "Select a user to change role."
+msgstr "ሚናውን ለመቀየር ተጠቃሚ ይምረጡ።"
+
+#: wp-admin/network/site-users.php:247
+msgid "Enter the username of an existing user."
+msgstr "የነባር ተጠቃሚ የተጠቃሚ ስም ያስገቡ።"
+
+#: wp-admin/network/site-users.php:244
+msgid "User could not be added to this site."
+msgstr "ተጠቃሚውን ወደ ጣቢያ ሊጨመር አልቻለም።"
+
+#: wp-admin/network/site-users.php:241
+msgid "User is already a member of this site."
+msgstr "ተጠቃሚ ቀድሞውኑ የዚህ ጣቢያ አባል ነው።"
+
+#: wp-admin/network/site-users.php:27
+msgid "Site users list"
+msgstr "የጣቢያ ተጠቃሚዎች ዝርዝር"
+
+#: wp-admin/network/site-users.php:26
+msgid "Site users list navigation"
+msgstr "የጣቢያ ተጠቃሚዎች ዝርዝር አሰሳ"
+
+#: wp-admin/network/site-users.php:25
+msgid "Filter site users list"
+msgstr "የጣቢያ ተጠቃሚዎች ዝርዝርን ያጣሩ"
+
+#: wp-admin/network/site-themes.php:213
+msgid "Network enabled themes are not shown on this screen."
+msgstr "አውታረ መረብ የነቁ ገጽታዎች በዚህ ገጽ ላይ አይታዩም ።"
+
+#: wp-admin/network/site-themes.php:209 wp-admin/network/themes.php:416
+msgid "No theme selected."
+msgstr "ገጽታ አልተመረጠም።"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/site-themes.php:205 wp-admin/network/themes.php:385
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s ገጽታ አልነቃም።"
+msgstr[1] "%s ገጽታዎች አልነቁም።"
+
+#: wp-admin/network/site-themes.php:202 wp-admin/network/themes.php:382
+msgid "Theme disabled."
+msgstr "ገጽታ አልነቃም።"
+
+#. translators: %s: Number of themes.
+#: wp-admin/network/site-themes.php:196 wp-admin/network/themes.php:376
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s ገጽታ ነቅቷል።"
+msgstr[1] "%s ገጽታዎች ነቅቷል።"
+
+#: wp-admin/network/site-themes.php:193 wp-admin/network/themes.php:373
+msgid "Theme enabled."
+msgstr "ገጽታ ነቅቷል።"
+
+#: wp-admin/network/site-themes.php:24
+msgid "Site themes list"
+msgstr "የጣቢያ ገጽታዎች ዝርዝር"
+
+#: wp-admin/network/site-themes.php:23
+msgid "Site themes list navigation"
+msgstr "የጣቢያ ገጽታዎች ዝርዝር አሰሳ"
+
+#: wp-admin/network/site-themes.php:22
+msgid "Filter site themes list"
+msgstr "የጣቢያ ገጽታዎች ዝርዝርን ያጣሩ"
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "ይቅርታ፣ የዚህ ጣቢያ ገጽታዎችን ማስተዳደር አልተፈቀደልዎትም።"
+
+#: wp-admin/network/site-settings.php:78
+msgid "Site options updated."
+msgstr "የጣቢያ አማራጮች  ታድሷል።"
+
+#: wp-admin/network/site-new.php:276
+msgid "Add Site"
+msgstr "ጣቢያ አክል"
+
+#: wp-admin/network/site-new.php:264
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr "የተጠቃሚ ስም እና የይለፍ ቃሉን ለመለውጥ የኢሜል መልዕክት ሊንክ ወድዚህ ኢሜል ይላካል፡፡"
+
+#: wp-admin/network/site-new.php:264
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "ከላይ ያለው የኢሜይል አድራሻ በውሂብ ጎታው ውስጥ ካልሆነ አዲስ ተጠቃሚ ይፈጠራል።"
+
+#: wp-admin/network/site-new.php:260
+msgid "Admin Email"
+msgstr "የአስተዳዳሪ ኢሜይል"
+
+#: wp-admin/network/site-new.php:220
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "ትናንሽ ፊደሎች (a-z) ፣ ቁጥሮች እና ሰረዞች ብቻ ይፈቀዳሉ።"
+
+#: wp-admin/network/site-new.php:178 wp-admin/network/site-new.php:188
+msgid "Add New Site"
+msgstr "አዲስ ጣቢያ አክል"
+
+#. translators: 1: Dashboard URL, 2: Network admin edit URL.
+#: wp-admin/network/site-new.php:170
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "ጣቢያው ታክለዋል። <a href=\"%1$s\">ዳሽ ቦርድን ይዩ</a> ወይም <a href=\"%2$s\">ጣቢያው ያርሙ</a>"
+
+#: wp-admin/network/site-new.php:126
+msgid "There was an error creating the user."
+msgstr "ተጠቃሚን መፍጠር ላይ አንድ ስህተት ነበር።"
+
+#: wp-admin/network/site-new.php:121
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "ጎራው ወይም የገባው ዱካው አሁን ካለው የተጠቃሚ ስም ጋር ተጋጭቷል።"
+
+#: wp-admin/network/site-new.php:91
+msgid "Missing email address."
+msgstr "የጠፋ የኢሜይል አድራሻ።"
+
+#: wp-admin/network/site-new.php:87
+msgid "Missing or invalid site address."
+msgstr "የጠፋ ወይም ልክ ያልሆነ የጣቢያ አድራሻ።"
+
+#. translators: %s: Reserved names list.
+#: wp-admin/network/site-new.php:59
+msgid "The following words are reserved for use by WordPress functions and cannot be used as site names: %s"
+msgstr "የሚከተሉት ቃላቶች በዎርድፕረስ ተግባራት ጥቅም ላይ እንዲውሉ የተጠበቁ ናቸው እና እንደ ጣቢያ ስሞች ጥቅም ላይ ሊውሉ አይችሉም፡ %s"
+
+#: wp-admin/network/site-new.php:40
+msgid "Cannot create an empty site."
+msgstr "ባዶ ጣቢያ መፍጠር አልተቻለም።"
+
+#: wp-admin/network/site-new.php:26
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "ለአዲሱ ጣቢያ የአስተዳዳሪ ኢሜይል በውሂብ ጎታው ውስጥ ከሌለ ፣ አዲስ ተጠቃሚም ይፈጠራል ።"
+
+#: wp-admin/network/site-new.php:25
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "ይህ ገጽ ወደ አውታረ መረቡ አዳዲስ ጣቢያዎችን ለማከል የሱፐር አድናቂዎች ነው ። ይህ በምዝገባ ቅንብሮች አልተነካም ።"
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "ይቅርታ፣ ጣቢያዎችን ወደዚህ አውታረ መረብ ማከል አልተፈቀደልዎትም።"
+
+#: wp-admin/network/site-info.php:197
+msgid "Set site attributes"
+msgstr "የጣቢያ ባህሪዎችን አስቀመጠ"
+
+#: wp-admin/network/site-info.php:194
+msgid "Attributes"
+msgstr "ባህሪያት"
+
+#: wp-admin/network/site-info.php:185
+msgctxt "site"
+msgid "Public"
+msgstr "ለህዝብ "
+
+#. translators: %s: Site title.
+#: wp-admin/network/site-info.php:127 wp-admin/network/site-settings.php:84
+#: wp-admin/network/site-themes.php:171 wp-admin/network/site-users.php:200
+msgid "Edit Site: %s"
+msgstr "ጣቢያ አርም፥ %s"
+
+#: wp-admin/network/site-info.php:121
+msgid "Site info updated."
+msgstr "የጣቢያ መረጃ ታድሷል።"
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:28
+#: wp-admin/network/site-themes.php:53 wp-admin/network/site-users.php:46
+msgid "The requested site does not exist."
+msgstr "የተጠየቀው ጣቢያ የለም።"
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:46 wp-admin/network/site-users.php:41
+msgid "Invalid site ID."
+msgstr "ዋጋቢስ ጣቢያ መለያ።"
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "ይቅርታ፣ ይህንን ጣቢያ ማረም አልተፈቀደልዎትም።"
+
+#: wp-admin/network/settings.php:497
+msgid "Enable menus"
+msgstr "ምናሌ አንቃ"
+
+#: wp-admin/network/settings.php:494
+msgid "Enable administration menus"
+msgstr "የአስተዳደር ምናሌዎችን ያንቁ"
+
+#: wp-admin/network/settings.php:444
+msgid "Default Language"
+msgstr "መደበኛ ቋንቋ"
+
+#: wp-admin/network/settings.php:441
+msgid "Language Settings"
+msgstr "የቋንቋ ቅንብሮች"
+
+#: wp-admin/network/settings.php:430
+msgid "Size in kilobytes"
+msgstr "መጠኑ በኪሎባይት"
+
+#. translators: %s: File size in kilobytes.
+#: wp-admin/network/settings.php:425
+msgid "%s KB"
+msgstr "%s ኬቢ"
+
+#: wp-admin/network/settings.php:420
+msgid "Max upload file size"
+msgstr "ከፍተኛ የፋይል መጠን ሰቀላ"
+
+#: wp-admin/network/settings.php:414
+msgid "Allowed file types. Separate types by spaces."
+msgstr "የተፈቀዱ የፋይል አይነቶች ። ዓይነቶችን በቦታዎች ለዩ ።"
+
+#: wp-admin/network/settings.php:410
+msgid "Upload file types"
+msgstr "የስቀሉ የፋይል አይነቶች"
+
+#. translators: %s: Number of megabytes to limit uploads to.
+#: wp-admin/network/settings.php:398
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "አጠቃላይ የፋይሎችን መጠን መሰቀል የሚቻለው ወደ %s ሜባ ተገድበዋል"
+
+#: wp-admin/network/settings.php:392
+msgid "Site upload space"
+msgstr "የጣቢያ ሰቀላ ቦታ"
+
+#: wp-admin/network/settings.php:389
+msgid "Upload Settings"
+msgstr "የስቀል ቅንብሮችን"
+
+#: wp-admin/network/settings.php:384
+msgid "The URL for the first comment on a new site."
+msgstr "በአዲስ ጣቢያ ላይ ለመጀመሪያው አስተያየት ዩአርኤል።"
+
+#: wp-admin/network/settings.php:380
+msgid "First Comment URL"
+msgstr "የመጀመሪያ አስተያየት ዩአርኤል"
+
+#: wp-admin/network/settings.php:375
+msgid "The email address of the first comment author on a new site."
+msgstr "በአዲስ ጣቢያ ላይ የመጀመሪያው አስተያየት ደራሲ የኢሜል አድራሻ፡፡"
+
+#: wp-admin/network/settings.php:371
+msgid "First Comment Email"
+msgstr "የመጀመሪያው አስተያየት ኢሜይል"
+
+#: wp-admin/network/settings.php:366
+msgid "The author of the first comment on a new site."
+msgstr "በአዲስ ጣቢያ ላይ የመጀመሪያ አስተያየት ፀሐፊ።"
+
+#: wp-admin/network/settings.php:362
+msgid "First Comment Author"
+msgstr "የመጀመሪያ አስተያየት ደራሲ"
+
+#: wp-admin/network/settings.php:357
+msgid "The first comment on a new site."
+msgstr "በአዲሱ ጣቢያ ላይ የመጀመሪያው አስተያየት።"
+
+#: wp-admin/network/settings.php:352
+msgid "First Comment"
+msgstr "የመጀመሪያ አስተያየት"
+
+#: wp-admin/network/settings.php:347
+msgid "The first page on a new site."
+msgstr "በአዲሱ ጣቢያ ላይ የመጀመሪያው ገጽ።"
+
+#: wp-admin/network/settings.php:342
+msgid "First Page"
+msgstr "የመጀመሪያ ገፅ"
+
+#: wp-admin/network/settings.php:337
+msgid "The first post on a new site."
+msgstr "በአዲሱ ጣቢያ ላይ የመጀመሪያው ፖስት።"
+
+#: wp-admin/network/settings.php:327
+msgid "The welcome email sent to new users."
+msgstr "እንኳን ደህና መጡ ኢሜይል ወደ አዲስ ተጠቃሚዎች ተልኳል።"
+
+#: wp-admin/network/settings.php:322
+msgid "Welcome User Email"
+msgstr "የተጠቃሚ ኢሜይል እንኳን ደህና መጡ"
+
+#: wp-admin/network/settings.php:317
+msgid "The welcome email sent to new site owners."
+msgstr "እንኳን ደህና መጡ ኢሜይል ወደ አዲስ የጣቢያው ባለቤት ተልኳል።"
+
+#: wp-admin/network/settings.php:312
+msgid "Welcome Email"
+msgstr "የእንኳን ደህና መጡ ኢሜይል"
+
+#: wp-admin/network/settings.php:308
+msgid "New Site Settings"
+msgstr "አዲስ የጣቢያ ቅንብሮች"
+
+#: wp-admin/network/settings.php:302
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "ጎራዎችን ከጣቢያ ምዝገባዎች ማገድ ከፈለግ። አንድ ጎራ በአንድ መስመር።"
+
+#: wp-admin/network/settings.php:288
+msgid "Banned Email Domains"
+msgstr "የታገዱ የኢሜይል ጎራዎች"
+
+#: wp-admin/network/settings.php:282
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "የጣቢያ ምዝገባዎችን ለአንዳንድ ጎራዎች መወሰን ከፈለጉ። አንድ ጎራ በአንድ መስመር።"
+
+#: wp-admin/network/settings.php:263
+msgid "Limited Email Registrations"
+msgstr "ውስን የኢሜይል ምዝገባዎች"
+
+#: wp-admin/network/settings.php:257
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "ተጠቃሚዎች እነዚህን ጣቢያዎች እንዲመዘገቡ አይፈቀድላቸውም። ስሞችን ከፋፍለህ ለያቸው።"
+
+#: wp-admin/network/settings.php:244
+msgid "Banned Names"
+msgstr "የታገዱ ስሞች"
+
+#: wp-admin/network/settings.php:239
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
+msgstr "የጣቢያ አስተዳዳሪዎች በ “ተጠቃሚዎች &rarr; አዲስ አክል” ገጽ በኩል አዲስ ተጠቃሚዎችን ወደ ጣቢያቸው እንዲያክሉ ይፍቀዱላቸው "
+
+#: wp-admin/network/settings.php:237
+msgid "Add New Users"
+msgstr "አዲስ ተጠቃሚዎችን አክል"
+
+#: wp-admin/network/settings.php:232
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr "አንድ ሰው ጣቢያ  ላይ ሲመዘገብ  በየግዜው የኢሜይል መልዕክት ወደ የአውታረ መረብ  አስተዳደር ላክ።"
+
+#: wp-admin/network/settings.php:225
+msgid "Registration notification"
+msgstr "የምዝገባ ማስታወቂያ"
+
+#. translators: 1: NOBLOGREDIRECT, 2: wp-config.php
+#: wp-admin/network/settings.php:213
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "ምዝገባ ተሰናክሎ ከሆነ፣ እባክዎ %1$s በ %2$s ወደ URL ያዋቅሩ ፣ ጎብኚዎችን የሌለ ጣቢያ የሚጎበኙ ከሆነ ወደ ይኽንኑ ይመል ።"
+
+#: wp-admin/network/settings.php:207
+msgid "Both sites and user accounts can be registered"
+msgstr "ሁለቱም ጣቢያዎች እና የተጠቃሚ መለያዎች መመዝገብ ይችላሉ"
+
+#: wp-admin/network/settings.php:206
+msgid "Logged in users may register new sites"
+msgstr "በመለያ የገቡ ተጠቃሚዎች አዳዲስ ጣቢያዎችን ሊያስመዘግቡ ይችላሉ"
+
+#: wp-admin/network/settings.php:205
+msgid "User accounts may be registered"
+msgstr "የተጠቃሚ መለያዎች  ምናልባት ሊመዘገቡ ይችላሉ"
+
+#: wp-admin/network/settings.php:204
+msgid "Registration is disabled"
+msgstr "ምዝገባው አልነቃም"
+
+#: wp-admin/network/settings.php:203
+msgid "New registrations settings"
+msgstr "አዲስ የምዝገባ ቅንብሮች"
+
+#: wp-admin/network/settings.php:194
+msgid "Allow new registrations"
+msgstr "አዲስ ምዝገባ ፍቀድ"
+
+#: wp-admin/network/settings.php:191
+msgid "Registration Settings"
+msgstr "የምዝገባ ቅንብሮች"
+
+#. translators: %s: New network admin email.
+#: wp-admin/network/settings.php:176
+msgid "There is a pending change of the network admin email to %s."
+msgstr "ወደ አውታረ መረቡ አስተዳዳሪ ኢሜል በመጠባበቅ ላይ ያለ ለውጥ አለ %s።"
+
+#: wp-admin/network/settings.php:151
+msgid "Operational Settings"
+msgstr "የአሠራር ቅንብሮች"
+
+#: wp-admin/network/settings.php:64
+msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\"> በአውታረ መረብ ቅንብሮች ላይ ያለው ሰነድ </a> "
+
+#: wp-admin/network/settings.php:58
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "የበላይ አሰተዳዳሪው ከእንግዲህ ወዲያ በአማራጮች ስክሪን ላይ ሊጨመሩ አይችሉም። አሁን በ አውታረ መረብ አስተዳዳሪ ላይ ወደሚገኙት ተጠቃሚዎች ዝርዝር መሄድ ተጠቃሚዎች እና የተጠቃሚ ስም ላይ ወይም ከዚያ ስም በታች ያለውን የአርትዖት ተግባር ሊንክ ጠቅ ያድርጉ። ይህ ወደ አርትዕ ተጠቃሚ ገጽ የሚሄድ ሲሆን ፣ ሳጥኑ ውስጥ ምልክት በማድረግ ለተጠቃሚው የአስተዳደር መብት መስጠት ይችላሉ።"
+
+#: wp-admin/network/settings.php:57
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "የምናሌ ቅንብር አስተዳዳሪዎች ላልሆኑ እንዲታይ ሆኖም የተሰኪ ምናሌዎችን   ማብራት/ማሰናከል አይችሉም ፣ ስለሆነም ጣቢያዎችን የሚያስተዳድሩ አስተዳዳሪዎች ሳይሆኑ እጅግ ከፍተኛ አስተዳዳሪዎች ብቻ ተሰኪዎችን የማግበር ሐለፊነት አለባቸው፡፡"
+
+#: wp-admin/network/settings.php:55
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "የሰቀላ ቅንጅቶች የተሰቀሉትን ፋይሎች መጠን እና ለእያንዳንዱ ጣቢያ የሚገኘውን የመጫኛ ቦታ መጠን ይቆጣጠራሉ።አንድ የተወሰነ ጣቢያው መደበኛ እሴት ሲያሩሙ ለተወሰኑ ጣቢያዎች መደበኛ እሴት መለወጥ ይችላሉ። የተፈቀዱ የፋይል ዓይነቶች እንዲሁ ተዘርዝረዋል (ፋይሎቹ ነጣጥለህ አስቀምጥ)።"
+
+#: wp-admin/network/settings.php:54
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "አዲስ ጣቢያ በኔትወርኩ ውስጥ ሲፈጠር አዲስ ጣቢያ  መደበኛ ቅንብሮች አላቸው ። አዲስ ጣቢያ ወይም ተጠቃሚ ሲመዘገብ የእንኳን ደህና መጣችሁ ኢሜል እና በመጀመሪያው ፖስት ፣ ገጽ ፣ አስተያየት ፣ የአስተያየት ደራሲ እና የአስተያየት URL ውስጥ ያካትታል ፡፡"
+
+#: wp-admin/network/settings.php:53
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "የምዝገባ ቅንብሮች የህዝብ ምዝገባዎችን ማሰናከል/ማንቃት ይችላሉ። ሌሎች ወድ ጣቢያ እንዲመዘገቡ ከፈቀዱ አይፈለጌ ተሰኪዎችን ይጫኑ። ለዚህ አውታረ መረብ ጣቢያዎች ስሞችን መለያየት እንጂ ኮማዎችን መጥቅም ያልባችዎም።"
+
+#: wp-admin/network/settings.php:52
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "የስራ ቅንብሮች ለአውታረ መረቡ&#8217; ስም እና አስተዳዳሪ ኢሜይል መስኮች አሉት ።"
+
+#: wp-admin/network/settings.php:51
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "ይህ ይስክሪን ለኔትወርኩ በአጠቃላይ አማራጮችን ያዘጋጃል እና ይለውጣል። የመጀመሪያው ጣቢያ በአውታረ መረቡ ውስጥ ዋናው ጣቢያ ሲሆን የአውታረ መረብ አማራጮች ከዚያ የመጀመሪያ ጣቢያ&#8217; አማራጮች የተወሰዱ ናቸው፡፡"
+
+#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:21
+msgid "Network Settings"
+msgstr "የኔትዎርክ ቅንብሮች"
+
+#: wp-admin/network/menu.php:80
+msgid "Installed Themes"
+msgstr "ገጽታዎች ጫን"
+
+#: wp-admin/network/menu.php:52
+msgid "All Sites"
+msgstr "ሁሉም ጣቢያዎች"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:16
+#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:145
+msgid "Upgrade Network"
+msgstr "ኔትዎችኩን አሻሽል"
+
+#: wp-admin/network/menu.php:41
+msgid "Updates"
+msgstr "የሚታደሱ"
+
+#: wp-admin/network/index.php:56
+msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">የአውታረ መረብ አስተዳዳሪ መረጃዎች</a>"
+
+#: wp-admin/network/index.php:49
+msgid "Quick Tasks"
+msgstr "ፈጣን ተግባራት"
+
+#: wp-admin/network/index.php:44
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "ጣቢያ ለመፈለግ፣ <strong>ዱካውን ወይም ጎራውን ያስገቡ</strong>።"
+
+#: wp-admin/network/index.php:43
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "ተጠቃሚ ለመፈለግ ፣ <strong> የኢሜይል አድራሻ ወይም የተጠቃሚ ስም </strong> ያስገቡ ። እንደ ተጠቃሚ&#42;"
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user or site, use the search boxes."
+msgstr "ተጠቃሚ ወይም ጣቢያ ለመፈለ፣ የፍለጋ ሳጥኖቹን ይጠቀሙ።"
+
+#: wp-admin/network/index.php:41
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "አዲስ ጣቢያ ለማከል፣ <strong>አዲስ ጣቢያ ፍጠር የሚለውን ጠቅ ያድርጉ</strong>።"
+
+#: wp-admin/network/index.php:40
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "አዲስ ተጠቃሚ ለማከል፣ <strong>አዲስ ተጠቃሚ ፍጠር  ይህ ጠቅ ያድርጉ</strong>።"
+
+#: wp-admin/network/index.php:39
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "በዚህ ገጽ ላይ ያለው ትክክለኛው መውረድ የአሁን ተጠቃሚ እና የጣቢያ ቁጥር በአውታረ መረብዎ ላይ ይሰጣል ።"
+
+#: wp-admin/network/index.php:29
+msgid "Modify global network settings"
+msgstr "ዓለም አቀፍ አውታረ መረብ ቅንብሮችን ያስተካክሉ"
+
+#: wp-admin/network/index.php:28
+msgid "Update your network"
+msgstr "ኔትዎርክህን አድስ"
+
+#: wp-admin/network/index.php:27
+msgid "Install and activate themes or plugins"
+msgstr "ገጽታዎች ወይም ተሰኪ ይጫኑ እና ያንቁ"
+
+#: wp-admin/network/index.php:26
+msgid "Add and manage sites or users"
+msgstr " ያክሉ  እና ጣቢያዎችን ወይም ተጠቃሚዎችን ያስተዳድሩ"
+
+#: wp-admin/network/index.php:25
+msgid "From here you can:"
+msgstr "ከዚህ የሚከተሉትን ማድረግ ይችላሉ፦"
+
+#: wp-admin/network/index.php:24
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "እንኳን ወደ አውታረመረብ አስተዳዳሪዎ በደህና መጡ ። ይህ የአስተዳደር ስክሪኖች አካባቢ ሁሉንም የ ዘርፈ ብዙ አውታረ መረቦችዎ ለማስተዳደር ያገለግላል ።"
+
+#: wp-admin/network.php:74
+msgid "Network"
+msgstr "ኔትዎርክ"
+
+#: wp-admin/network.php:69 wp-admin/network.php:82
+msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">የአውታረ መረብ አስተዳዳሪ ስክሪን መረጃዎች</a>"
+
+#: wp-admin/network.php:68 wp-admin/network.php:81
+msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">የአውታረ መረብ አስተዳዳሪ የመፍጠር መረጃዎች</a>"
+
+#: wp-admin/network.php:66
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "የፍልሰት ጣቢያዎች ከዋናው ጣቢያ በፈጠራ ችግር እና # 8220 ፣ / ጦማር / እና # 8221 ፣ ይህ መዋቅር ከአንድ ወር በላይ ካለሆነ ምርጫ ተሰናክሏል ። ይህ ማንቃት ወደፊት በሚመጣው ስሪት ውስጥ ይነጋገራል ።"
+
+#: wp-admin/network.php:65
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "ይህንን ኮድ ካከሉ እና አሳሽዎን ካደሱ በኋላ ፣ ብዙዎችን ነቅተው መጠበቅ አለባቸው ። አሁን በ አውታረ መረብ አድሚኒስት አሰሳ ምናሌ ውስጥ ያለው ይህ ገጽ የተጨመረውን ኮድ ቅስት ይይዛል ። በ አውታረ መረብ አድሚንና በሳይት አድሚን ወይም በመሳሪያ አሞሌ ስር ያለ የግለሰብ የጣቢያ ስም ጠቅ በማድረግ በ አውታረ መረብ ውስጥ መቀያየር ይችላሉ ።"
+
+#: wp-admin/network.php:64
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "የተሰየሙትን የኮድ መስመሮችን ወደ wp-config.php (ከ <code> / *...አቁም አርትዖት ... * / </code> በፊት) ያክሉ እና <code> .htaccess </code> (አሁን ያለውን WordPress ን በመተካት) ህጎች) "
+
+#: wp-admin/network.php:63
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "ቀጣዩ የኔትወርክ ቅንብር ገጽ ዕይታ በWp-ውቅርዎ.p እና .htac ይዘት ፋይሎችዎ ላይ ለማከል በግላዊ መስመር ኮድ ያስገኝልዎታል ። የ FTP ደንበኛህ ቅንብሮች በሚታይ ነጥብ ጀምረህ ፋይሎችን ማግኝትን አረጋግጥ ፣ ስለዚህ ማግኘት ትችላለህ ። ይህን ፋይል በትክክል ከሌለ መፍጠር ሊኖርብህ ይችላል ። የእነዚህ ሁለት ፋይሎች ምትኬ ቅጂዎች አድርግ ።"
+
+#: wp-admin/network.php:62
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "ንኡስ ሆዶችን ምረጥ ወይም ማጣሪያዎች ይሁኑ ፤ ይህ ጭነትህን እንደገና በመጫን ከዚያ በኋላ ሊለወጥ የሚችለው ብቻ ነው ። የአውታረ መረብ ዝርዝሮችን ይሙሉ ፣ እና ጫን ጠቅ ያድርጉ ። ይህ ካልሰራ ፣ የፐርማሊንክክስ (ለአውራጆች) ክብረወሰንን መጨመር ወይም ወደ ሌላ ቅንብር መቀየር ሊኖርብህ ይችላል (ለሪቶሬክተር) ።"
+
+#: wp-admin/network.php:61
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "ይህ ገጽ ዕይታ አውታረ መረብ ንኡስርዕስ (<code>site1.example.com</code>) ወይም ኮድ ኮድ (<code>example.com/site1</code>) እንዳለው እንዲያዋቅር ይፈቅድልዎታል ። አስተናጋጅህ ከፈቀደለት በአፓቼ እና በዲኤንኤስ መዝገቦች ውስጥ እንዲነቃቁ ንኡስ ደናግልን ይጠይቃል ።"
+
+#: wp-admin/network.php:57
+msgid "Create a Network of WordPress Sites"
+msgstr "የዎርድፕረስ አውታረ መረብ ይፍጠሩ"
+
+#. translators: 1: WP_ALLOW_MULTISITE, 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "የአውታረ መረብ መፈጠርን ለመፍቀድ %1$s ያህል ቋሚ በ %2$s ፋይልዎ ውስጥ እውነት መሆኑን መገምገም አለብዎት ።"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "የአውታረ መረብ ፈጠራ መቃን ለ WordPress MU አውታረ መረቦች አይደለም ።"
+
+#: wp-admin/includes/network.php:680
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "እነዚህን ደረጃዎች ካጠናቀቁ በኋላ ፣ አውታረ መረብዎ ንቁ እና የተዋቀረ ነው ። እንደገና መግባት አለብዎ ።"
+
+#: wp-admin/includes/network.php:629
+msgid "https://wordpress.org/support/article/nginx/"
+msgstr "https://wordpress.org/support/article/nginx/"
+
+#. translators: %s: Documentation URL.
+#: wp-admin/includes/network.php:628
+msgid "It seems your network is running with Nginx web server. <a href=\"%s\">Learn more about further configuration</a>."
+msgstr "አውታረ መረቡ የNginx ድር አገልጋይ ጋር የሚሮጥ ይመስላል።  <a href=\"%s\">ስለ ውቅር የበለጠ ይረዱ</a>።"
+
+#. translators: 1: File name (.htaccess or web.config), 2: File path.
+#: wp-admin/includes/network.php:609 wp-admin/includes/network.php:662
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "በ%1$s ፋይልዎ በ%2$s ውስጥ የሚከተሉትን፣ <strong> ያክሉ </strong> ሌሎች የ WordPress ደምቦች ፦"
+
+#: wp-admin/includes/network.php:545
+msgid "To make your installation more secure, you should also add:"
+msgstr "ጭነትዎን የበለጠ ደህንነቱ የተጠበቀ ለማድረግ፣ የሚከተሉትን ማከል አለብዎት፥"
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:540
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "እነዚህ ልዩ የማረጋገጫ ቁልፎችም ከ %s ፋይልዎ ጠፍተዋል ።"
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:534
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "ይህ ልዩ የማረጋገጫ ቁልፍ ከ%s ፋይልዎ ጠፍቷል ።"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:485
+msgid "That&#8217;s all, stop editing! Happy publishing."
+msgstr "ያ እና #8217 ፤ ሁሉም ፣ አርትዕ ማድረግ ያቁሙ! የተባለውን መጽሐፍ ምዕራፍ 3ን ተመልከት ።"
+
+#. translators: 1: wp-config.php, 2: Location of wp-config file, 3: Translated
+#. version of "That's all, stop editing! Happy publishing."
+#: wp-admin/includes/network.php:477
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "በ %1$s ፋይልዎ ውስጥ በ %2$s <strong> ከ በላይ</strong>   በመስመር ንባብ %3$s አክል ፥"
+
+#. translators: %s: wp-config.php
+#: wp-admin/includes/network.php:463
+msgid "You should back up your existing %s file."
+msgstr "ያለውን የ%s ፋይል ምትኬ ማስቀመጥ አለብህ።"
+
+#. translators: 1: wp-config.php, 2: .htaccess
+#. translators: 1: wp-config.php, 2: web.config
+#: wp-admin/includes/network.php:447 wp-admin/includes/network.php:455
+msgid "You should back up your existing %1$s and %2$s files."
+msgstr "ያሉትን የ%1$s እና %2$s ፋይሎችን ምትኬ ማስቀመጥ አለቦት።"
+
+#: wp-admin/includes/network.php:440
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "የጣቢያዎች አውታረ መረብ ለመፍጠር ባህሪያትን ለማንቃት የሚከተሉትን እርምጃዎች ያጠናቅቁ ።"
+
+#: wp-admin/includes/network.php:439
+msgid "Enabling the Network"
+msgstr "አውታረመረቡን ማንቃት"
+
+#: wp-admin/includes/network.php:428
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "እባክዎ የመዋቅሩን ደረጃዎች ያጠናቅቁ ። አዲስ አውታረ መረብ ለመፍጠር የአውታረ መረብ የውሂብ ጎታ ሰንጠረዦችን ባዶ ማድረግ ወይም ማስወገድ ይኖርብዎታል ።"
+
+#: wp-admin/includes/network.php:427
+msgid "An existing WordPress network was detected."
+msgstr "አሁን ያለው የ WordPሬስ አውታረ መረብ ተገኝቷል ።"
+
+#: wp-admin/includes/network.php:422
+msgid "The original configuration steps are shown here for reference."
+msgstr "የመጀመሪያው ውቅረት ደረጃዎች ለመጥቀሻ እዚህ ይታያሉ ።"
+
+#: wp-admin/includes/network.php:369
+msgid "Your email address."
+msgstr "የኢሜይል አድራሻዎ።"
+
+#: wp-admin/includes/network.php:365 wp-admin/network/settings.php:161
+msgid "Network Admin Email"
+msgstr "የኔትዎርክ አስተዳዳሪ ኢሜይል"
+
+#: wp-admin/includes/network.php:360
+msgid "What would you like to call your network?"
+msgstr "የኔትዎርክ ስሙ ምን ብለህ መሰየም  ትፈልጋለህ?"
+
+#: wp-admin/includes/network.php:356 wp-admin/network/settings.php:154
+msgid "Network Title"
+msgstr "የኔትዎርክ ስም"
+
+#: wp-admin/includes/network.php:335
+msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
+msgstr "መጫንዎ አዲስ ስላልሆነ ፣ በ WordPress አውታረ መረብ ውስጥ ያሉት ጣቢያዎች ንዑስ ጎራዎችን መጠቀም አለባቸው ።"
+
+#: wp-admin/includes/network.php:332
+msgid "Sub-domain Installation"
+msgstr "ንዑስ ጎራ ጭነት"
+
+#: wp-admin/includes/network.php:322
+msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "መጫንዎ በማውጫ ውስጥ ስለሆነ ፣ በ WordPሬስ አውታረ መረብ ውስጥ ያሉ ጣቢያዎች ንኡስ-ዳይሬክተሮችን መጠቀም አለባቸው ።"
+
+#: wp-admin/includes/network.php:312 wp-admin/includes/network.php:325
+#: wp-admin/includes/network.php:336
+msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "በንኡስ ማውጫ ጭነት ውስጥ ያለው ዋናው ጣቢያ የተሻሻለ የፍልመታዊ ትይይዝ መዋቅር መጠቀም አለበት ፣ ይህም አሁን ያሉትን አገናኞች ሊሰብር ይችላል ።"
+
+#. translators: 1: localhost, 2: localhost.localdomain
+#: wp-admin/includes/network.php:306
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "%1$s እየተጠቀሙ ስለሆነ ፣ በWordPress አውታረ መረብ ውስጥ ያሉ ጣቢያዎች ንዑስ ዳይሬክተሮችን መጠቀም አለባቸው ። ንዑስ ጎራዎችን መጠቀም ከፈለጉ %2$s ን መጠቀምን ያስቡ ።"
+
+#: wp-admin/includes/network.php:301 wp-admin/includes/network.php:319
+msgid "Sub-directory Installation"
+msgstr "ንዑስ ማውጫ ጭነት"
+
+#: wp-admin/includes/network.php:297
+msgid "Network Details"
+msgstr "ስለ ኔትዎርኩ"
+
+#. translators: %s: Host name.
+#: wp-admin/includes/network.php:288 wp-admin/includes/network.php:348
+msgid "The internet address of your network will be %s."
+msgstr "የአውታረ መረብህ ኢንተርኔት አድራሻ የሚሆነው %s።"
+
+#. translators: 1: Site URL, 2: Host name, 3: www.
+#: wp-admin/includes/network.php:274
+msgid "You should consider changing your site domain to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "የአውታረ መረብ ባህሪውን ከማንቃትዎ በፊት የጣቢያዎን ጎራ ወደ %1$s ለመቀየር ያስቡበት። አሁንም እንደ %2$s ያለ የ%3$s ቅድመ ቅጥያ በመጠቀም ጣቢያዎን መጎብኘት ይቻል ይሆናል ነገርግን ማንኛቸውም ማገናኛዎች የ%3$s ቅድመ ቅጥያ አይኖራቸውም።"
+
+#: wp-admin/includes/network.php:269 wp-admin/includes/network.php:283
+#: wp-admin/includes/network.php:343
+msgid "Server Address"
+msgstr "የሰርቨሩ አድራሻ"
+
+#: wp-admin/includes/network.php:263 wp-admin/includes/network.php:615
+#: wp-admin/includes/network.php:668
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "ወደ ንዑስ መተላለፊያ አውታረ መረቦች ከብጁ የWp-ይዘት ዳይሬክተሮች ጋር ሙሉ በሙሉ ላይስማሙ ይችላሉ ።"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:251
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "እንደ <code>%1$s/site1</code> እና <code>%1$s/ጣቢያ2</code>"
+
+#: wp-admin/includes/network.php:246
+msgid "Sub-directories"
+msgstr "ንዑስ ማውጫዎች"
+
+#. translators: 1: Host name.
+#: wp-admin/includes/network.php:239
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "እንደ <code>ጣቢያ1።%1$s</code> እና <code>ጣቢያ2።%1$s</code>"
+
+#: wp-admin/includes/network.php:234
+msgid "Sub-domains"
+msgstr "ንዑስ ጎራዎች"
+
+#: wp-admin/includes/network.php:230
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "ምናባዊ አስተናጋጅ (ንዑስ-ጎራ) ተግባርን የምትጠቀም ከሆነ ፣ የዲኤንኤስ ሪከርድ ያስፈልግሃል ።"
+
+#: wp-admin/includes/network.php:229
+msgid "You cannot change this later."
+msgstr "ይህን በኋላ መቀየር አይችሉም።"
+
+#: wp-admin/includes/network.php:228
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "እባክዎ ንኡስ ጎራዎችን ወይም ንዑስ ዳይሬክተሮችን ለመጠቀም በ WordPress አውታረ መረብዎ ውስጥ ያሉ ጣቢያዎች ይፈልጉ እንደሆነ ይምረጡ ።"
+
+#: wp-admin/includes/network.php:227
+msgid "Addresses of Sites in your Network"
+msgstr "በአውታረ መረብዎ ውስጥ ያሉ የጣቢያዎች አድራሻዎች"
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite.
+#: wp-admin/includes/network.php:216
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "%1$s ተሰናክሎ ከሆነ አስተዳዳሪዎ ያንን ሞጁል እንዲያነቃው ይጠይቁ ወይም <a href=\"%2$s\"> Apache ሰነድ </a> ወይም <a href=\"%3$s\"> ሌላ ቦታ ይመልከቱ እሱን ለማዋቀር እገዛ </a> "
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:206
+msgid "It looks like the Apache %s module is not installed."
+msgstr "የአፓቼ %s ሞጁል ያልተጫኑ ይመስላል።"
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:198
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "እባክዎ በዚህ መጫን መጨረሻ ላይ ጥቅም ላይ እንደሚውል የአፓቼ %s ሞጁል መጫኑን ያረጋግጡ ።"
+
+#: wp-admin/includes/network.php:195
+msgid "Note:"
+msgstr "ማስታወሻ ፥"
+
+#: wp-admin/includes/network.php:182
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. Configuration files will be created in the next step."
+msgstr "ከታች ያለውን መረጃ ይሙሉ እና የዎርድፕረስ ድረ-ገጾች አውታረ መረብ ለመፍጠር በመንገድዎ ላይ ይሆናሉ። የማዋቀር ፋይሎች በሚቀጥለው ደረጃ ይፈጠራሉ።"
+
+#: wp-admin/includes/network.php:181
+msgid "Welcome to the Network installation process!"
+msgstr "ወደ አውታረ መረቡ ጭነት ሂደት እንኳን በደህና መጡ!"
+
+#. translators: %s: Default network title.
+#: wp-admin/includes/network.php:172
+msgid "%s Sites"
+msgstr "%s ጣቢያዎች"
+
+#: wp-admin/includes/network.php:160
+msgid "Error: The network could not be created."
+msgstr "ስህተት፥ አውታረ መረቡ ሊፈጠር አልቻለም፡፡"
+
+#. translators: %s: Port number.
+#: wp-admin/includes/network.php:145
+msgid "You cannot use port numbers such as %s."
+msgstr "እንደ ያሉ %s የፖርት ቁጥሮችን መጠቀም አይችሉም።"
+
+#: wp-admin/includes/network.php:142
+msgid "You cannot install a network of sites with your server address."
+msgstr "በዚህ የሰርቨር አድራሻ አውታር መረብ የጣቢያዎች መጫን አይችሉም።"
+
+#: wp-admin/includes/network.php:133
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "አንዴ አውታረ መረቡ ከተፈጠረ በኋላ፣ እንደገና ተሰኪዎች ማንቃት ትችላለህ።"
+
+#. translators: %s: URL to Plugins screen.
+#: wp-admin/includes/network.php:130
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr ""
+"ያልተተረጎመ\n"
+"የአውታረ መረብ ባህሪውን ከማንቃትዎ በፊት እባክዎ <a href=\"%s\"> ተሰኪዎችዎን ያቦዝኑ </a> "
+
+#. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
+#: wp-admin/includes/network.php:118
+msgid "The constant %s cannot be defined when creating a network."
+msgstr "ይህ ቋሚው %s አውታረመረብ ሲፈጥሩ ፍች አይኖሮውም፡፡"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:200
+msgctxt "user"
+msgid "Registered"
+msgstr "ተመዝግቧል"
+
+#. translators: Number of users.
+#: wp-admin/includes/class-wp-ms-users-list-table.php:164
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "ዋና አሰተዳዳሪው <span class=\"count\">(%s)</span>"
+msgstr[1] "ዋና አሰተዳዳሪዎቹ <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:118
+msgctxt "user"
+msgid "Not spam"
+msgstr "አይፈለጌ አይደለም"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:117
+msgctxt "user"
+msgid "Mark as spam"
+msgstr "አይፈለጌ ምልክት ያድርጉ"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:924
+msgid "Active Child Theme"
+msgstr "ንቁ ጭብጥ"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:737
+msgid "Child theme of %s"
+msgstr "የ%s ልጅ ጭብጥ"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:730
+msgid "Visit Theme Site"
+msgstr "ገጽታ ጣቢያውን ይጎብኙ"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:724
+msgid "Visit theme site for %s"
+msgstr "ለ%s የገጽታ ጣቢያ ይጎብኙ"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:693
+msgid "Broken Theme:"
+msgstr "የተሰበረ ገጽታ፥"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:599
+msgid "Network Disable %s"
+msgstr "ያልነቃ ኔትዎርክ %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:596
+msgid "Disable %s"
+msgstr "ያልነቃ %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:573
+msgid "Network Enable %s"
+msgstr "የነቃ ኔትዎርክ %s"
+
+#. translators: %s: Theme name.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:570
+msgid "Enable %s"
+msgstr "አንቃ %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:472
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:606
+msgid "Network Disable"
+msgstr "ያልነቃ ኔትዎርክ"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:472
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:606
+msgid "Disable"
+msgstr "አታንቃው"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:469
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:580
+msgid "Enable"
+msgstr "አንቃ"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:415
+msgctxt "themes"
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "የማይጠገን <span class=\"count\">(%s)</span>"
+msgstr[1] "የማይጠገን <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:406
+msgctxt "themes"
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "ለመታደስ ዝግጁ <span class=\"count\">(%s)</span>"
+msgstr[1] "ለመታደስ ዝግጁ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:397
+msgctxt "themes"
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "ያልነቃ <span class=\"count\">(%s)</span>"
+msgstr[1] "ያልነቃ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:388
+msgctxt "themes"
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "የነቃ <span class=\"count\">(%s)</span>"
+msgstr[1] "የነቃ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of themes.
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:379
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "ሁሉም <span class=\"count\">(%s)</span>"
+msgstr[1] "ሁሉም <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:321
+msgid "No themes are currently available."
+msgstr "በአሁኑ ጊዜ ምንም ገጽታዎች የሉም።"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:319
+msgid "No themes found."
+msgstr "ገጽታዎች አልተገኙም።"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:723
+msgctxt "site"
+msgid "Not Spam"
+msgstr "አይፈለጌ አይደለም"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:719
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "ማህደር"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:717
+msgid "Unarchive"
+msgstr "ከማህደር ይወጥ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:621
+msgid "Main"
+msgstr "ዋና"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:484
+msgid "Never"
+msgstr "በፈፁም"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:481
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:502
+#: wp-admin/includes/class-wp-ms-users-list-table.php:340
+msgid "Y/m/d g:i:s a"
+msgstr "Y/m/d g:i:s a"
+
+#. translators: 1: Site title, 2: Site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:457
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:365
+#: wp-admin/network/site-info.php:177
+msgctxt "site"
+msgid "Registered"
+msgstr "ተመዝግቧል"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:364
+#: wp-admin/network/site-info.php:181
+msgid "Last Updated"
+msgstr "መጨረሻ የታደሰው"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:293
+msgctxt "site"
+msgid "Not spam"
+msgstr "አይፈለጌ አይደለም"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:292
+msgctxt "site"
+msgid "Mark as spam"
+msgstr "አይፈለጌ ምልክት ያድርጉ"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:254
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Deleted <span class=\"count\">(%s)</span>"
+msgstr[0] "ሰርዝ <span class=\"count\">(%s)</span>"
+msgstr[1] "ሰርዝ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:247
+msgctxt "sites"
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "አይፈለጌ <span class=\"count\">(%s)</span>"
+msgstr[1] "አይፈለጌ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:241
+msgid "Mature <span class=\"count\">(%s)</span>"
+msgid_plural "Mature <span class=\"count\">(%s)</span>"
+msgstr[0] "ብቁ ነው <span class=\"count\">(%s)</span>"
+msgstr[1] "ብቁዎች ናቸው <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:235
+msgid "Archived <span class=\"count\">(%s)</span>"
+msgid_plural "Archived <span class=\"count\">(%s)</span>"
+msgstr[0] "ማህደር <span class=\"count\">(%s)</span>"
+msgstr[1] "ማህደሮች <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:229
+msgid "Public <span class=\"count\">(%s)</span>"
+msgid_plural "Public <span class=\"count\">(%s)</span>"
+msgstr[0] "ለሕዝብ <span class=\"count\">(%s)</span>"
+msgstr[1] "ለሕዝብ <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of sites.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:222
+msgctxt "sites"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "ሁሉም <span class=\"count\">(%s)</span>"
+msgstr[1] "ሁሉም <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:207
+msgid "No sites found."
+msgstr "ምንም ጣቢያዎች አልተገኙም።"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/network/site-info.php:191
+msgid "Mature"
+msgstr "ብስለት"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:189
+msgid "Deleted"
+msgstr "ተሰርዟል"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:40
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:725
+#: wp-admin/network/site-info.php:188
+msgctxt "site"
+msgid "Spam"
+msgstr "አይፈለጌ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:39
+#: wp-admin/network/site-info.php:187
+msgid "Archived"
+msgstr "በማህደር ተቀምጧል"
